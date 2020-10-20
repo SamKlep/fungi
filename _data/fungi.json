@@ -5,11 +5,10 @@
     "family": "Agaricaceae",
     "location": "North America, Europe",
     "dimensions": "Cap 8-20 cm diameter, stem 8-10 cm tall * 2-3 cm diameter",
-    "edibility": "Edible and good",
-    "medicinal": "false",
-    "image": "image.jpg",
+    "edibility": true,
+    "medicinal": false,
     "description": "Agaricus arvensis, commonly known as the horse mushroom, is a sometimes massive agaric that has a white cap, ringed stem, and pink or chocolate colored gills. Cap white or cream colored, may have fine scales, first hemispherical in shape before flattening out with maturity. Flesh is white, firm and thick. Gills are at first white, becoming pink, then chocolate brown or blackish, free and crowded. Stem is white or cream; it is slightly club-shaped and smooth or finely scaly below the ring. Ring is white or cream, pendulous and superior. Viewed from below, on a closed-cap specimen, it has a well-developed 'cogwheel' pattern around the stem. Similar species There are several similar species. Agaricus macrosporus are very fleshy, with scaly stem girdles. Agaricus sylvicola is a woodland variety. Agaricus augustus and Agaricus xanthoderma are also similar. Be careful not to confuse it with the deadly poisonous Amanita virosa, which has white gills.",
-    "folklore": ""
+    "folklore": "none"
   },
   {
     "name": "Agaricus augustus",
@@ -17,9 +16,8 @@
     "family": "Agaricaceae",
     "location": "North America, Europe",
     "dimensions": "Cap 10-20 cm diameter, stem 10-20 cm tall * 2-4 cm diameter",
-    "edibility": "Edible and good",
-    "medicinal": "false",
-    "image": "image.jpg",
+    "edibility": true,
+    "medicinal": false,
     "description": "Agaricus augustus, also known as the prince, is a tall, sometimes massive agaric that has orange-brown scales on the surface of both cap and stem. Surfaces of all parts stain yellow when handled or bruised. Cap hemispherical during the so-called button stage, and then expands, becoming convex and finally flat. The cap cuticle is dry, and densely covered with concentrically arranged, brown-coloured scales on a white to yellow background. The flesh is thick, firm and white and may discolour yellow when bruised. Gills are not attached to stem, crowded and pallid at first, and turn pink then dark brown with maturity. Stem Solid; cylindrical to club-shaped. The surface is white. Ring membranous, with patches of brownish fibrils under. Similar species Agaricus subrefescens found in central and eastern U.S.",
     "folklore": ""
   },
@@ -29,9 +27,8 @@
     "family": "Polyporaceae",
     "location": "North America, Europe",
     "dimensions": "Cap 7-18 cm diameter, stem 3-7 cm tall * 1-3 cm thick",
-    "edibility": "Inedible",
-    "medicinal": "false",
-    "image": "image.jpg",
+    "edibility": false,
+    "medicinal": false,
     "description": "From above, this pale orange polypore looks like an agaric or a hedgehog mushrooom, but it has minute pores on the underside. The skin of the convex cap often cracks with age. It has a sturdy stem and very firm, mild to slightly bitter white flesh. Grows under conifers, mycorrhizal with conifers in a wide variety of ecosystems. Similar species Albatrellus ovinus is more cream white and does stain yellow or greenish yellow, particularly on the pores.",
     "folklore": ""
   },
@@ -41,9 +38,8 @@
     "family": "Polyporaceae",
     "location": "North America, Europe",
     "dimensions": "Cap 7-18 cm diameter, stem 3-7 cm tall * 1-3 cm thick",
-    "edibility": "Edible",
-    "medicinal": "false",
-    "image": "image.jpg",
+    "edibility": true,
+    "medicinal": false,
     "description": "Albatrellus ovinus, also known as Sheep Polypore, is a creamy to pale gray-brown polypore that looks like an agaric or a hedgehog mushrooom from above, but it has minute pores on the underside. It stains lemon or greenish yellow, particularly on the pores. The skin of the convex cap often cracks with age. It has a sturdy stem and very firm, mild to slightly bitter white flesh. Grows under conifers, mycorrhizal with spruce on moss-covered soil. Similar species Albatrellus confluens is more orange and does not stain yellow; it tastes bitter.",
     "folklore": ""
   },
@@ -53,9 +49,8 @@
     "family": "Pluteaceae",
     "location": "North America, Europe",
     "dimensions": "Cap 7-12 cm diameter, stem 8-13 cm tall * 1.5-2 cm diameter",
-    "edibility": "Inedible",
-    "medicinal": "false",
-    "image": "image.jpg",
+    "edibility": false,
+    "medicinal": false,
     "description": "The cap of this large, grayish brown, fleshy agaric has charcoal-grey patches, which are easily removable and a scaly stem, white gills, and no ring or volval bag. It fruits during summer and autumn. Cap is pallid gray-brown; shape ranging from convex to flat. It is upturned, and has a deep-coloured margin. There is a low umbo. Large, coarse, dingy gray patches decorate the volva. Flesh is white and firm. Gills are free and closely spaced, and white in colour. They can be thick, and are often forked. Stem is pallid, grayish brown with white shaggy horizontal bands of veil; an inconspicuous bulb is encased in a volval bag breaking away leaving slanting ridges. The mushroom has no ring.",
     "folklore": ""
   },
@@ -65,9 +60,8 @@
     "family": "Pluteaceae",
     "location": "North America, Europe",
     "dimensions": "Cap 4-9 cm diameter, stem 7-12 cm tall * 0.8-1.2 cm diameter",
-    "edibility": "Inedible",
-    "medicinal": "false",
-    "image": "image.jpg",
+    "edibility": false,
+    "medicinal": false,
     "description": "Amanita fulva, also known as Tawny grisette, is a medium-sized agaric with distinctive tawny cap and white gills, no ring and usually without cap patches but with volval bag. It grows solitary or scattered on soil in mixed woodlands, favouring birch. Not recommended to be eaten because of danger to be mistaken with poisonous members of the Amanita genus. Cap tan or orange-brown with sulcate margin, occasionally with brownish velar patches, at first ovoid, becoming expanded-convex and flattened with a slight umbo. Flesh white and brittle. Stem whitish or pallid cap coulor, narrower towards the apex and arising from white volval bag. Ring absent. Hollow in marture specimens. Similar species Amanita crocea and Amanita vaginata.",
     "folklore": ""
   },
@@ -77,9 +71,8 @@
     "family": "Pluteaceae",
     "location": "North America, Europe, Asia",
     "dimensions": "Cap 8-10 cm diameter; stem 8-18 cm tall * 1-2 cm diameter",
-    "edibility": "Poisonous",
-    "medicinal": "true",
-    "image": "image.jpg",
+    "edibility": false,
+    "medicinal": true,
     "description": "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a medium to large, fleshy agaric, with red cap, white patches, white gills, ring and a bulbous base. It grows on poor and sandy soils and the fruiting bodies emerge from the soil looking like white eggs. Cap first round to hemispherical, and finally to plate-like and flat in mature specimens, often with a low, shallow depression on disk when fully expanded. Surface shiny; deep scarlet, fading to orange-red or orange-yellow in older specimens. Gills white, free or barely touching the stem, crowded. Stem white, robust and has the slightly brittle, fibrous texture. At the base is a bulb that bears universal veil remnants in the form of two to four distinct rings or ruffs. Between the basal universal veil remnants and gills are remnants of the partial veil (which covers the gills during development) in the form of a white ring. It can be quite wide and flaccid with age.",
     "folklore": "Magic properties and other-wordly entities."
   }

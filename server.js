@@ -3,6 +3,8 @@ const express = require('express')
 const dotenv = require('dotenv')
 const morgan = require('morgan')
 const colors = require('colors')
+const cors = require('cors')
+const slugify = require('slugify')
 const connectDB = require('./config/db')
 
 // Load env vars
@@ -16,13 +18,16 @@ const fungus = require('./routes/fungus')
 
 const app = express()
 
+// Body parser
+app.use(express.json())
+
 // Dev logging middleware
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'))
 }
 
-// Body parser
-app.use(express.json())
+// Enable CORS
+app.use(cors())
 
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')))

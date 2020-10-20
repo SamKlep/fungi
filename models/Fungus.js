@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const slugify = require('slugify')
 
 const FungusSchema = new mongoose.Schema({
   name: {
@@ -8,10 +7,14 @@ const FungusSchema = new mongoose.Schema({
   subName: {
     type: String,
   },
+
   family: {
     type: String,
   },
   location: {
+    type: String,
+  },
+  dimensions: {
     type: String,
   },
   edibility: {
@@ -32,12 +35,6 @@ const FungusSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-})
-
-// Create fungus slug from the name
-FungusSchema.pre('save', function (next) {
-  this.slug = slugify(this.name, { lower: true })
-  next()
 })
 
 module.exports = mongoose.model('Fungus', FungusSchema)
