@@ -15,6 +15,7 @@ const FungusSchema = new mongoose.Schema({
   location: {
     type: String,
   },
+
   dimensions: {
     type: String,
   },

@@ -3,6 +3,7 @@ const express = require('express')
 const dotenv = require('dotenv')
 const morgan = require('morgan')
 const colors = require('colors')
+const fileupload = require('express-fileupload')
 const cors = require('cors')
 const slugify = require('slugify')
 const connectDB = require('./config/db')
@@ -26,6 +27,9 @@ app.use(express.json())
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'))
 }
+
+// File Upload
+app.use(fileupload())
 
 // Enable CORS
 app.use(cors())
