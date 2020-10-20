@@ -11,6 +11,7 @@ exports.getFungi = async (req, res, next) => {
 
     res.status(200).json({
       success: true,
+      count: fungi.length,
       data: fungi,
     })
   } catch (err) {
@@ -60,13 +61,42 @@ exports.createFungus = async (req, res, next) => {
 // @desc        Update fungus
 // @route       PUT /api/v1/fungus/:id
 // @access      Private
-exports.updateFungus = (req, res, next) => {
-  res.status(200).json({ success: true, msg: `Update fungus ${req.params.id}` })
+exports.updateFungus = async (req, res, next) => {
+  try {
+    const fungus = await Fungus.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+      runValidators: true,
+    })
+
+    if (!fungus) {
+      return res.status(400).json({
+        success: false,
+      })
+    }
+  } catch (error) {
+    res.status(400).json({
+      success: false,
+    })
+  }
 }
 
 // @desc        Delete fungus
 // @route       DELETE /api/v1/fungus/:id
 // @access      Private
-exports.deleteFungus = (req, res, next) => {
-  res.status(200).json({ success: true, msg: `Delete fungus ${req.params.id}` })
+exports.deleteFungus = async (req, res, next) => {
+  try {
+    const fungus = await Fungus.findByIdAndDelete(req.params.id)
+
+    if (!fungus) {
+      return res.status(400).json({
+        success: false,
+      })
+    }
+
+    res.status(200).json({ success: true, data: {} })
+  } catch (error) {
+    res.status(400).json({
+      success: false,
+    })
+  }
 }
