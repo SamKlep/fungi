@@ -6,6 +6,7 @@ const colors = require('colors')
 const cors = require('cors')
 const slugify = require('slugify')
 const connectDB = require('./config/db')
+const errorHandler = require('./middleware/error')
 
 // Load env vars
 dotenv.config({ path: './config/config.env' })
@@ -34,6 +35,9 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 // Mount routers
 app.use('/api/v1/fungus', fungus)
+
+// Error handler
+app.use(errorHandler)
 
 const PORT = process.env.PORT || 5000
 

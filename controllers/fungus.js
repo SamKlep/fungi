@@ -39,9 +39,10 @@ exports.getFungus = async (req, res, next) => {
       data: fungus,
     })
   } catch (err) {
-    res.status(400).json({
-      success: false,
-    })
+    // res.status(400).json({
+    //   success: false,
+    // })
+    next(err)
   }
 }
 
