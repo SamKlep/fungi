@@ -1,6 +1,6 @@
 # Fungi API
 
-> Backend API for a Fungi/Mushroom application.
+> Backend API for a Fungi/Mushroom application intended for informational purposes only.
 
 ## Usage
 
