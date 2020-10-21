@@ -40,7 +40,7 @@ exports.getFungus = asyncHandler(async (req, res, next) => {
 exports.createFungus = asyncHandler(async (req, res, next) => {
   const fungus = await Fungus.create(req.body)
 
-  res.status(200).json({ success: true, data: fungus })
+  res.status(201).json({ success: true, data: fungus })
 })
 
 // @desc        Update fungus
