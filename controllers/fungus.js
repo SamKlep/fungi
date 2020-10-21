@@ -126,3 +126,16 @@ exports.fungusPhotoUpload = asyncHandler(async (req, res, next) => {
     })
   })
 })
+
+// @desc        Get random entry
+// @route       GET /api/v1/random
+// @access      Public
+exports.getRandom = asyncHandler(async (req, res, next) => {
+  const fungi = await Fungus.aggregate([{ $sample: { size: 1 } }])
+
+  res.status(200).json({
+    success: true,
+    count: fungi.length,
+    data: fungi,
+  })
+})
