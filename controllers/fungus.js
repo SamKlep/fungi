@@ -7,7 +7,13 @@ const Fungus = require('../models/Fungus.js')
 // @route       GET /api/v1/fungus
 // @access      Public
 exports.getFungi = asyncHandler(async (req, res, next) => {
+  const pagination = req.query.pagination ? parseInt(req.query.pagination) : 10
+
+  const page = req.query.page ? parseInt(req.query.page) : 1
+
   const fungi = await Fungus.find()
+    .skip((page - 1) * pagination)
+    .limit(pagination)
 
   res.status(200).json({
     success: true,
