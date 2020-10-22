@@ -15,6 +15,9 @@ const FungusSchema = new mongoose.Schema({
   location: {
     type: String,
   },
+  imgUrl: {
+    type: String,
+  },
 
   dimensions: {
     type: String,
@@ -33,6 +36,7 @@ const FungusSchema = new mongoose.Schema({
   folklore: {
     type: String,
   },
+  
   createdAt: {
     type: Date,
     default: Date.now,
