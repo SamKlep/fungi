@@ -18,40 +18,37 @@ const FungusScreen = ({ match }) => {
   }, [match])
 
   return (
-    <>
+    <div className='container'>
       <Link className='btn btn-light my-3' to='/explore'>
         Go Back
       </Link>
-      
-      <div className='card'>
-        <div className='card-inner'>
-          <div className='card-front'>
-            <img alt='fungus' src={fungus.imgUrl} />
-          </div>
-          <div className='card-back'>
-            <h1>{fungus.name}</h1>
 
-            <ul>
-              <li>
-                <strong>Sub-name:</strong> {fungus.subName}
-              </li>
-              <li>
-                <strong>Family:</strong> {fungus.family}
-              </li>
-              <li>
-                <strong>Location:</strong> {fungus.location}
-              </li>
-              <li>
-                <strong>Dimensions:</strong> {fungus.dimensions}
-              </li>
-              <li>
-                <strong>Description:</strong> {fungus.description}
-              </li>
-            </ul>
-          </div>
+      <div className='card2'>
+        <img alt='fungus' src={fungus.imgUrl} />
+
+        <div className='card-body'>
+          <h1>{fungus.name}</h1>
+
+          <ul>
+            <li>
+              <strong>Sub-name:</strong> {fungus.subName}
+            </li>
+            <li>
+              <strong>Family:</strong> {fungus.family}
+            </li>
+            <li>
+              <strong>Location:</strong> {fungus.location}
+            </li>
+            <li>
+              <strong>Dimensions:</strong> {fungus.dimensions}
+            </li>
+            <li>
+              <strong>Description:</strong> {fungus.description}
+            </li>
+          </ul>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
