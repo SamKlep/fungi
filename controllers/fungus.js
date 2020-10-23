@@ -7,11 +7,12 @@ const Fungus = require('../models/Fungus.js')
 // @route       GET /api/v1/fungus
 // @access      Public
 exports.getFungi = asyncHandler(async (req, res, next) => {
-  const pagination = req.query.pagination ? parseInt(req.query.pagination) : 24
+  console.log(req.query)
+  const pagination = req.query.pagination ? parseInt(req.query.pagination) : 12
 
   const page = req.query.page ? parseInt(req.query.page) : 1
 
-  const fungi = await Fungus.find()
+  const fungi = await Fungus.find(req.query)
     .skip((page - 1) * pagination)
     .limit(pagination)
 
@@ -138,6 +139,19 @@ exports.fungusPhotoUpload = asyncHandler(async (req, res, next) => {
 // @access      Public
 exports.getRandom = asyncHandler(async (req, res, next) => {
   const fungi = await Fungus.aggregate([{ $sample: { size: 1 } }])
+
+  res.status(200).json({
+    success: true,
+    count: fungi.length,
+    data: fungi,
+  })
+})
+
+// @desc        Search for fungi
+// @route       GET /api/v1/search
+// @access      Public
+exports.searchFungi = asyncHandler(async (req, res, next) => {
+  const fungi = await Fungus.find([{ $text: { $search: req.body.query } }])
 
   res.status(200).json({
     success: true,

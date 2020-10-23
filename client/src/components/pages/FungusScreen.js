@@ -19,7 +19,7 @@ const FungusScreen = ({ match }) => {
 
   return (
     <div className='container'>
-      <Link className='btn btn-light my-3' to='/explore'>
+      <Link className='btn btn-light my-3' to='/learn'>
         Go Back
       </Link>
       <div className='cards2'>

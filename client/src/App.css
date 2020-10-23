@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
 }
 
 .logo {
@@ -38,13 +38,13 @@ body {
 
 .cards2 {
   display: flex;
+  padding-top: 50px;
 }
 
 .card2 {
   background-color: transparent;
   height: 300px;
   perspective: 1000px;
-  overflow: auto;
 }
 
 .card2 h1 {

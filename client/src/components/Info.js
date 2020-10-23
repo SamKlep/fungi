@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap'
 
 const Info = () => {
   return (
-    <div className='text-center container mb-5'>
+    <div className='text-center container mt-5 mb-3'>
       <Image className='mb-3' src='/img/fungus.jpeg' />
       <h1>What Is a Mushroom?</h1>
       <p>

@@ -2,16 +2,14 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import '../../App.css'
 import FungiGrid from '../fungi/FungiGrid'
-import Search from '../fungi/Search'
 
-const Explore = () => {
+const AllFungi = () => {
   const [fungi, setFungus] = useState([])
   const [isLoading, setIsLoading] = useState([true])
-  const [query, setQuery] = useState('')
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`/api/v1/fungus?name=${query}`)
+      const result = await axios(`/api/v1/fungus`)
 
       console.log(result.data)
       setFungus(result.data)
@@ -19,15 +17,13 @@ const Explore = () => {
     }
 
     fetchItems()
-  }, [query])
+  }, [])
 
   return (
     <div className='container mb-5'>
-      <h1>Explore</h1>
-      <Search getQuery={(q) => setQuery(q)} />
       <FungiGrid isLoading={isLoading} fungi={fungi} />
     </div>
   )
 }
 
-export default Explore
+export default AllFungi

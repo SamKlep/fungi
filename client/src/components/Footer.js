@@ -4,7 +4,10 @@ import { Nav, Navbar } from 'react-bootstrap'
 const Footer = () => {
   return (
     <div className='footer'>
-      <Navbar bg='dark' variant='dark' className='justify-content-center'>
+      <Navbar
+        bg='dark'
+        variant='dark'
+        className='justify-content-center fixed-bottom'>
         <Nav.Item>
           <Nav.Link href='/'>Fungi API</Nav.Link>
         </Nav.Item>

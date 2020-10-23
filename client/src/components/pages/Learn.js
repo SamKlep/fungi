@@ -1,12 +1,12 @@
 import React from 'react'
-import LearnJumbo from '../LearnJumbo'
 import Info from '../Info'
+import AllFungi from './AllFungi'
 
 const Learn = () => {
   return (
     <div>
-      <LearnJumbo />
       <Info />
+      <AllFungi />
     </div>
   )
 }

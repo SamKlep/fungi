@@ -11,7 +11,6 @@ import Breathe from './components/pages/Breathe'
 import NotFound from './components/pages/NotFound'
 import FungusScreen from './components/pages/FungusScreen'
 
-
 function App() {
   return (
     <Router>
@@ -24,6 +23,7 @@ function App() {
         <Route path='/fungus/:id' component={FungusScreen} />
         <Route path='/notfound' component={NotFound} />
       </Switch>
+      <br />
       <Footer />
     </Router>
   )
