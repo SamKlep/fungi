@@ -1,20 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { ListGroup } from 'react-bootstrap'
 
 const WordItem = ({ words }) => {
   console.log(words)
   return (
-    <div className='card'>
-      <div className='card-title'>{words.date}</div>
-      <div className='card-body'>
-        <ul>
-          <li>{words.shortdef[0]}</li>
-          <li>{words.shortdef[1]}</li>
-          <li>{words.shortdef[2]}</li>
-          <li>{words.fl}</li>
-        </ul>
-      </div>
-    </div>
+    <ListGroup>
+      <ListGroup.Item className='bg-info text-dark'>
+        <h3>{words.date}</h3>
+      </ListGroup.Item>
+      <ListGroup.Item className='text-center bg-light'>
+        <h5>Definition</h5>
+      </ListGroup.Item>
+      <ListGroup.Item>{words.shortdef[0]}</ListGroup.Item>
+      {/* <ListGroup.Item>{words.shortdef[1]}</ListGroup.Item>
+      <ListGroup.Item>{words.shortdef[2]}</ListGroup.Item> */}
+    </ListGroup>
   )
 }
 

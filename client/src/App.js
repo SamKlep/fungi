@@ -24,6 +24,7 @@ function App() {
         <Route path='/notfound' component={NotFound} />
       </Switch>
       <br />
+
       <Footer />
     </Router>
   )
