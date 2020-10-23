@@ -270,5 +270,49 @@
     "edibility": false,
     "medicinal": false,
     "description": "This is a yellow, antler-like, gelatinous fungus which grows in tufts or stumps and roots of coniferous trees. It fruits throughout the year, but is most commonly seen in autumn. Fruiting body bright orange, yellow or occasionally white branching basidiocarps, which are somewhat gelatinous and somewhat slimy when wet. Branches are sometimes flattened and sometimes forked at tips. Similar species Calocera cornea has small, unbrached clubs and grows on deciduous twigs. Calocera furcata is forked and grows on pine wood. Paler Calocera pallidospathulata is flattened and irregular. Gymnospoarngium clavariiforme, found on juniper, is less erect and without branches at the tips."
+  },
+  {
+    "name": "Calocybe gambosa",
+    "subName": "St George's Mushroom",
+    "family": "Tricholomataceae",
+    "imgUrl": "https://www.mushroom.world/data/fungi/Calocybegambosa1.JPG",
+    "location": "Europe and North America",
+    "dimensions": "Cap 5-15 cm diameter; stem 3-7 cm tall x 2-3 cm diameter",
+    "edibility": true,
+    "medicinal": false,
+    "description": "Calocybe gambosa, commonly known as St. George's mushroom, is an edible, medium to large, fleshy, cream mushroom which typically grows in rings or troops on soil. It is most commonly found in pastures but also less frequently appearing in mixed woods. Cap white-creamy coloured to bright yellow, often with brownish tinge. At first sub-spherical, becoming expanded and irregularly convex with an incurved margin. Gills sinuate, white and crowded. The flesh is thick and soft and has a mealy or cucumber smell. The spore print is white to pinkish white. Stem whitish, smooth, bulky at the base. The mushroom has no ring. Similar species Spring fruiting white Entoloma species are distinguished by pink spore deposits and pink mature gills."
+  },
+  {
+    "name": "Calocybe persicolor",
+    "subName": "Pink Lawn Trich",
+    "family": "Tricholomataceae",
+    "imgUrl": "https://www.mushroom.world/data/fungi/Calocybepersicolor1.jpg",
+    "location": "North America, Europe",
+    "dimensions": "Cap 3-5 cm diameter, stem 3-5 cm tall * 0.3-0.8 cm diameter",
+    "edibility": false,
+    "medicinal": false,
+    "description": "Calocybe persicolor is a small pink-capped mushroom with white gills that can be found in grassy meadows, fields, or on lawns from spring to autumn. It is less frequently found in open grasslands. Cap convex to umbonate, smooth fleshy and pink coloured. It has a somewhat irregular margin and is covered with whitish dust or bloom. The flesh is white with pink tinge beneath cuticle. Gills are white, crowded, sinuate and notched. Stem pallid similarly colored as the cap. Smooth, fleshy, tapers slightly upwards. Similar species Calocybe carnea is less dull without the hairy stem base."
+  },
+  {
+    "name": "Cantharellula umbonata",
+    "subName": "Grayling",
+    "family": "Cantharellula",
+    "imgUrl": "https://www.mushroom.world/data/fungi/Cantharellulaumbonata1.JPG",
+    "location": "North America, Europe",
+    "dimensions": "cap 2-3 cm dia; stem 2.5-12.5 cm tall * 0.3-0.7 cm dia.",
+    "edibility": true,
+    "medicinal": false,
+    "description": "This is a small to medium-sized, funnel-shaped agaric with grey cap and forked gills grows associated with Polytrichum moss and fruits in the summer and fall. Cap convex at first, becoming flat to sunken; most specimens with a small, pointed umbo; margin incurved at first, becoming upturned and wavy in age; surface gray to grayish brown overall, often appearing to have whitish blotches; dry to moist; smooth to minutely hairy; flesh white; odor and taste not distinctive. Gills close to crowded, decurrent, repeatedly and regularly forked; whitish, developing spot-like reddish or sometimes yellow stains in age. Stem often with swollen portions; some-what flexible, often bent, curved, and/or twisted; white to gray; silky above, stuffed, usually with whitish mycelium binding the lower stalk to mass; often water-saturated near the base. Spore print white. Similar species Cantharellus tubaeformis dingy-brown cap bearing forked veins instead of gills."
+  },
+  {
+    "name": "Cantharellus cibarius",
+    "subName": "Common Chantarelle",
+    "family": "Cantharellaceae",
+    "imgUrl": "https://www.mushroom.world/data/fungi/Cantharelluscibarius2.JPG",
+    "location": "North America, Europe, Bhutan and China",
+    "dimensions": "Cap 3-10 cm across, stem 2-10 cm tall * 0.4-1.5 cm thick",
+    "edibility": true,
+    "medicinal": false,
+    "description": "This mushroom is typically orange or yellow, meaty and funnel-shaped. On the lower surface, underneath the smooth cap, it has gill-like ridges that run almost all the way down its stem, which tapers down seamlessly from the cap. Cap light yellow, bright yellow to orange in colour, fading with age. As young formed as a button and then turns more cone shaped. The margin stays folded in for a long time and then often becomes wavy and uneven at maturity. The mushroom has gill-like veins under the cap, not gills. Flesh firm, thick, yellow. Stem solid, tapers downward from cap. The surface is smooth and the colour similar to the cap or a lighter yellow to almost white. Similar spiecies Hygrophoropsis aurantiaca which is not mycorrhizal. Can also be confused with the poisonous mushrooms Omphalotus olearius, which has a luminous quality and grows on dead wood, and Cortinarius speciosissimus."
   }
 ]
