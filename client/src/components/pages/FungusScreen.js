@@ -22,30 +22,31 @@ const FungusScreen = ({ match }) => {
       <Link className='btn btn-light my-3' to='/explore'>
         Go Back
       </Link>
+      <div className='cards2'>
+        <div className='card2'>
+          <img alt='fungus' src={fungus.imgUrl} />
 
-      <div className='card2'>
-        <img alt='fungus' src={fungus.imgUrl} />
+          <div className='card-body'>
+            <h1>{fungus.name}</h1>
 
-        <div className='card-body'>
-          <h1>{fungus.name}</h1>
-
-          <ul>
-            <li>
-              <strong>Sub-name:</strong> {fungus.subName}
-            </li>
-            <li>
-              <strong>Family:</strong> {fungus.family}
-            </li>
-            <li>
-              <strong>Location:</strong> {fungus.location}
-            </li>
-            <li>
-              <strong>Dimensions:</strong> {fungus.dimensions}
-            </li>
-            <li>
-              <strong>Description:</strong> {fungus.description}
-            </li>
-          </ul>
+            <ul>
+              <li>
+                <strong>Sub-name:</strong> {fungus.subName}
+              </li>
+              <li>
+                <strong>Family:</strong> {fungus.family}
+              </li>
+              <li>
+                <strong>Location:</strong> {fungus.location}
+              </li>
+              <li>
+                <strong>Dimensions:</strong> {fungus.dimensions}
+              </li>
+              <li>
+                <strong>Description:</strong> {fungus.description}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
