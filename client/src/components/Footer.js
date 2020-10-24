@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer pill-links'>
       <Navbar
         bg='dark'
         variant='dark'

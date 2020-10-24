@@ -82,6 +82,12 @@ body {
   padding-bottom: 10px;
 }
 
+.pill-links a {
+  color: #5bc0de;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
 @media (max-width: 800px) {
   .carousel {
     width: 600px;

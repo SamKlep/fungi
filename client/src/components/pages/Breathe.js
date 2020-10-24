@@ -11,7 +11,7 @@ const Breathe = () => {
       </Jumbotron>
       <Container>
         <Row className='justify-content-md-center'>
-          <Col className='lead mb-5'>
+          <Col lg='8' className='lead mb-5'>
             <p>
               Cultures around the world have eaten or used mushrooms medicinally
               for centuries, dating all the way back to ancient Egypt. Legend
@@ -46,7 +46,7 @@ const Breathe = () => {
       <Container>
         <Row className='justify-content-md-center bg-light p-5'>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' />
+            <img src='/img/fungus.jpeg' alt='' />
           </Col>
           <Col md='8' className='mb-3'>
             <p>
@@ -72,7 +72,7 @@ const Breathe = () => {
             </p>
           </Col>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' />
+            <img src='/img/fungus.jpeg' alt='' />
           </Col>
         </Row>
         <Row className='justify-content-md-center bg-light p-5'>
@@ -113,7 +113,7 @@ const Breathe = () => {
         </Row>
         <Row className='justify-content-md-center bg-light p-5'>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' />
+            <img src='/img/fungus.jpeg' alt='' />
           </Col>
           <Col md='8' className='mb-3'>
             <p>
@@ -152,7 +152,7 @@ const Breathe = () => {
         </Row>
         <Row className='justify-content-md-center bg-light p-5'>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' />
+            <img src='/img/fungus.jpeg' alt='' />
           </Col>
           <Col md='8' className='mb-3'>
             <p>

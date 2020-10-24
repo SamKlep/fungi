@@ -17,7 +17,16 @@ const FungusItem = ({ fungus }) => {
           </Link>
           <ul>
             <li>
-              <strong> {fungus.subName}</strong>
+              <strong>Family: </strong>
+              {fungus.family}
+            </li>
+            <li>
+              <strong> Sub-Name: </strong>
+              {fungus.subName}
+            </li>
+            <li>
+              <strong> Location: </strong>
+              {fungus.location}
             </li>
           </ul>
         </div>

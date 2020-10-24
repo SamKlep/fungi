@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <Navbar bg='dark' variant='dark'>
         <LinkContainer to='/'>
-          <Navbar.Brand className='logo'>Fungi API</Navbar.Brand>
+          <Navbar.Brand className='text-info logo'>Fungi API</Navbar.Brand>
         </LinkContainer>
         <Nav className='mr-auto'>
           <LinkContainer to='/learn'>

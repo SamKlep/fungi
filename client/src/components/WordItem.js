@@ -9,12 +9,10 @@ const WordItem = ({ words }) => {
       <ListGroup.Item className='bg-info text-dark'>
         <h3>{words.date}</h3>
       </ListGroup.Item>
-      <ListGroup.Item className='text-center bg-light'>
+      <ListGroup.Item className='text-center text-white bg-dark'>
         <h5>Definition</h5>
       </ListGroup.Item>
-      <ListGroup.Item>{words.shortdef[0]}</ListGroup.Item>
-      {/* <ListGroup.Item>{words.shortdef[1]}</ListGroup.Item>
-      <ListGroup.Item>{words.shortdef[2]}</ListGroup.Item> */}
+      <ListGroup.Item className='bg-light'>{words.shortdef[0]}</ListGroup.Item>
     </ListGroup>
   )
 }
