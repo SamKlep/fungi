@@ -9,7 +9,7 @@ const Define = () => {
   useEffect(() => {
     const fetchItems = async () => {
       const result = await axios(
-        `https://www.dictionaryapi.com/api/v3/references/collegiate/json/mushroom\?key\=adb83fbb-4540-4d90-b25c-d503b0fde007`
+        `https://www.dictionaryapi.com/api/v3/references/collegiate/json/mushroom?key=adb83fbb-4540-4d90-b25c-d503b0fde007`
       )
 
       console.log(result.data)

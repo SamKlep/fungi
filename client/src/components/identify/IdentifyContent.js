@@ -1,11 +1,9 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import IdentifyPills from '../IdentifyPills'
+import { Container, Col, Row } from 'react-bootstrap'
 
-const Identify = () => {
+const IdentifyContent = () => {
   return (
-    <Container>
-      <IdentifyPills />
+    <div>
       <Container className='justify-content-md-center'>
         <h1 className='display-4 text-center justify-content-md-center'>
           Identify
@@ -23,8 +21,8 @@ const Identify = () => {
           </Col>
         </Row>
       </Container>
-    </Container>
+    </div>
   )
 }
 
-export default Identify
+export default IdentifyContent
