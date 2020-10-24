@@ -12,6 +12,9 @@ import NotFound from './components/pages/NotFound'
 import FungusScreen from './components/pages/FungusScreen'
 import Links from './components/pages/Links'
 import History from './components/pages/History'
+import Edible from './components/pages/Edible'
+import Medicinal from './components/pages/Medicinal'
+import Identify from './components/pages/Identify'
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path='/learn' component={Learn} />
         <Route path='/history' component={History} />
         <Route path='/links' component={Links} />
+        <Route path='/edible' component={Edible} />
+        <Route path='/medicinal' component={Medicinal} />
+        <Route path='/identify' component={Identify} />
         <Route path='/explore' component={Explore} />
         <Route path='/breathe' component={Breathe} />
         <Route path='/fungus/:id' component={FungusScreen} />

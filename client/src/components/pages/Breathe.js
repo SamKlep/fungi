@@ -1,15 +1,16 @@
 import React from 'react'
-import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
+import { Image, Container, Row, Col } from 'react-bootstrap'
+import BreathePills from '../BreathePills'
 
 const Breathe = () => {
   return (
-    <div>
-      <Jumbotron fluid>
-        <Container>
-          <h1 className='display-4 text-center'>Breathe.</h1>
-        </Container>
-      </Jumbotron>
-      <Container>
+    <Container>
+      <BreathePills />
+      <Container className='justify-content-md-center'>
+        <h1 className='display-4 text-center justify-content-md-center'>
+          Breathe
+        </h1>
+
         <Row className='justify-content-md-center'>
           <Col lg='8' className='lead mb-5'>
             <p>
@@ -173,7 +174,7 @@ const Breathe = () => {
       </Container>
 
       <br />
-    </div>
+    </Container>
   )
 }
 

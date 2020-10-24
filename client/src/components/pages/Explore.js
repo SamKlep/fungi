@@ -22,7 +22,7 @@ const Explore = () => {
   }, [query])
 
   return (
-    <div className='container mb-5'>
+    <div className='container mt-5 mb-5'>
       <h1>Explore</h1>
       <Search getQuery={(q) => setQuery(q)} />
       <FungiGrid isLoading={isLoading} fungi={fungi} />
