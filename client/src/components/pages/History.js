@@ -1,19 +1,17 @@
 import React from 'react'
-import Info from '../Info'
+import HistoryInfo from '../HistoryInfo'
 import AllFungi from './AllFungi'
 import Define from '../Define'
-import Pills from '../Pills'
+import HistoryPills from '../HistoryPills'
 import { Container } from 'react-bootstrap'
 
-const Learn = () => {
+const History = () => {
   return (
     <Container>
-      <Pills />
-      <Info />
-      <Define />
-      <AllFungi />
+      <HistoryPills />
+      <HistoryInfo />
     </Container>
   )
 }
 
-export default Learn
+export default History

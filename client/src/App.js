@@ -10,6 +10,8 @@ import Explore from './components/pages/Explore'
 import Breathe from './components/pages/Breathe'
 import NotFound from './components/pages/NotFound'
 import FungusScreen from './components/pages/FungusScreen'
+import Links from './components/pages/Links'
+import History from './components/pages/History'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Route path='/' component={Home} exact />
       <Switch>
         <Route path='/learn' component={Learn} />
+        <Route path='/history' component={History} />
+        <Route path='/links' component={Links} />
         <Route path='/explore' component={Explore} />
         <Route path='/breathe' component={Breathe} />
         <Route path='/fungus/:id' component={FungusScreen} />
