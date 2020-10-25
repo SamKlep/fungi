@@ -9,8 +9,9 @@
     "edible": true,
     "medicinal": false,
     "identification": "white cap, cream cap, ringed stem, pink gills, chocolate colored gills, finely scaled, white stem, cream stem, cogwheel pattern",
-    "description": "Agaricus arvensis, commonly known as the horse mushroom, is a sometimes massive agaric that has a white cap, ringed stem, and pink or chocolate colored gills. Cap white or cream colored, may have fine scales, first hemispherical in shape before flattening out with maturity. Flesh is white, firm and thick. Gills are at first white, becoming pink, then chocolate brown or blackish, free and crowded. Stem is white or cream; it is slightly club-shaped and smooth or finely scaly below the ring. Ring is white or cream, pendulous and superior. Viewed from below, on a closed-cap specimen, it has a well-developed 'cogwheel' pattern around the stem. Similar species There are several similar species. Agaricus macrosporus are very fleshy, with scaly stem girdles. Agaricus sylvicola is a woodland variety. Agaricus augustus and Agaricus xanthoderma are also similar. Be careful not to confuse it with the deadly poisonous Amanita virosa, which has white gills.",
-    "folklore": "none"
+    "similar": "Agaricus macrosporus, Agaricus sylvicola, Agaricus augustus, Agaricus xanthoderma, Amanita virosa",
+    "description": "Agaricus arvensis, commonly known as the horse mushroom, is a sometimes massive agaric that has a white cap, ringed stem, and pink or chocolate colored gills. Cap white or cream colored, may have fine scales, first hemispherical in shape before flattening out with maturity. Flesh is white, firm and thick. Gills are at first white, becoming pink, then chocolate brown or blackish, free and crowded. Stem is white or cream; it is slightly club-shaped and smooth or finely scaly below the ring. Ring is white or cream, pendulous and superior. Viewed from below, on a closed-cap specimen, it has a well-developed 'cogwheel' pattern around the stem.",
+    "folklore": ""
   },
   {
     "name": "Agaricus augustus",
@@ -21,8 +22,9 @@
     "dimensions": "Cap 10-20 cm diameter, stem 10-20 cm tall * 2-4 cm diameter",
     "edible": true,
     "medicinal": false,
-    "identification": "",
-    "description": "Agaricus augustus, also known as the prince, is a tall, sometimes massive agaric that has orange-brown scales on the surface of both cap and stem. Surfaces of all parts stain yellow when handled or bruised. Cap hemispherical during the so-called button stage, and then expands, becoming convex and finally flat. The cap cuticle is dry, and densely covered with concentrically arranged, brown-coloured scales on a white to yellow background. The flesh is thick, firm and white and may discolour yellow when bruised. Gills are not attached to stem, crowded and pallid at first, and turn pink then dark brown with maturity. Stem Solid; cylindrical to club-shaped. The surface is white. Ring membranous, with patches of brownish fibrils under. Similar species Agaricus subrefescens found in central and eastern U.S.",
+    "identification": "orange-brown scales, white to yellow background, flesh is thick, firm and white, gills pink and dark brown, Stem Solid, white stem",
+    "similar": "Agaricus subrefescens",
+    "description": "Agaricus augustus, also known as the prince, is a tall, sometimes massive agaric that has orange-brown scales on the surface of both cap and stem. Surfaces of all parts stain yellow when handled or bruised. Cap hemispherical during the so-called button stage, and then expands, becoming convex and finally flat. The cap cuticle is dry, and densely covered with concentrically arranged, brown-coloured scales on a white to yellow background. The flesh is thick, firm and white and may discolour yellow when bruised. Gills are not attached to stem, crowded and pallid at first, and turn pink then dark brown with maturity. Stem Solid; cylindrical to club-shaped. The surface is white. Ring membranous, with patches of brownish fibrils under.",
     "folklore": ""
   },
   {
@@ -34,8 +36,9 @@
     "dimensions": "Cap 7-18 cm diameter, stem 3-7 cm tall * 1-3 cm thick",
     "edible": false,
     "medicinal": false,
-    "identification": "",
-    "description": "From above, this pale orange polypore looks like an agaric or a hedgehog mushrooom, but it has minute pores on the underside. The skin of the convex cap often cracks with age. It has a sturdy stem and very firm, mild to slightly bitter white flesh. Grows under conifers, mycorrhizal with conifers in a wide variety of ecosystems. Similar species Albatrellus ovinus is more cream white and does stain yellow or greenish yellow, particularly on the pores.",
+    "identification": "pale orange, convex cap, minute pores on the underside, cracks on skin, sturdy stem, bitter white flesh, grows under conifers.",
+    "similar": "Albatrellus ovinus",
+    "description": "From above, this pale orange polypore looks like an agaric or a hedgehog mushrooom, but it has minute pores on the underside. The skin of the convex cap often cracks with age. It has a sturdy stem and very firm, mild to slightly bitter white flesh. Grows under conifers, mycorrhizal with conifers in a wide variety of ecosystems.",
     "folklore": ""
   },
   {
@@ -47,8 +50,9 @@
     "dimensions": "Cap 7-18 cm diameter, stem 3-7 cm tall * 1-3 cm thick",
     "edible": true,
     "medicinal": false,
-    "identification": "",
-    "description": "Albatrellus ovinus, also known as Sheep Polypore, is a creamy to pale gray-brown polypore that looks like an agaric or a hedgehog mushrooom from above, but it has minute pores on the underside. It stains lemon or greenish yellow, particularly on the pores. The skin of the convex cap often cracks with age. It has a sturdy stem and very firm, mild to slightly bitter white flesh. Grows under conifers, mycorrhizal with spruce on moss-covered soil. Similar species Albatrellus confluens is more orange and does not stain yellow; it tastes bitter.",
+    "identification": "creamy to pale gray-brown, stains lemon or greenish yellow, convex cap often cracks with age, sturdy stem, white flesh on stem, grows under conifers.",
+    "similar": "Albatrellus confluens",
+    "description": "Albatrellus ovinus, also known as Sheep Polypore, is a creamy to pale gray-brown polypore that looks like an agaric or a hedgehog mushrooom from above, but it has minute pores on the underside. It stains lemon or greenish yellow, particularly on the pores. The skin of the convex cap often cracks with age. It has a sturdy stem and very firm, mild to slightly bitter white flesh. Grows under conifers, mycorrhizal with spruce on moss-covered soil.",
     "folklore": ""
   },
   {
@@ -61,6 +65,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "The cap of this large, grayish brown, fleshy agaric has charcoal-grey patches, which are easily removable and a scaly stem, white gills, and no ring or volval bag. It fruits during summer and autumn. Cap is pallid gray-brown; shape ranging from convex to flat. It is upturned, and has a deep-coloured margin. There is a low umbo. Large, coarse, dingy gray patches decorate the volva. Flesh is white and firm. Gills are free and closely spaced, and white in colour. They can be thick, and are often forked. Stem is pallid, grayish brown with white shaggy horizontal bands of veil; an inconspicuous bulb is encased in a volval bag breaking away leaving slanting ridges. The mushroom has no ring.",
     "folklore": ""
   },
@@ -74,6 +79,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "Amanita fulva, also known as Tawny grisette, is a medium-sized agaric with distinctive tawny cap and white gills, no ring and usually without cap patches but with volval bag. It grows solitary or scattered on soil in mixed woodlands, favouring birch. Not recommended to be eaten because of danger to be mistaken with poisonous members of the Amanita genus. Cap tan or orange-brown with sulcate margin, occasionally with brownish velar patches, at first ovoid, becoming expanded-convex and flattened with a slight umbo. Flesh white and brittle. Stem whitish or pallid cap coulor, narrower towards the apex and arising from white volval bag. Ring absent. Hollow in marture specimens. Similar species Amanita crocea and Amanita vaginata.",
     "folklore": ""
   },
@@ -87,6 +93,7 @@
     "edible": false,
     "medicinal": true,
     "identification": "",
+    "similar": "",
     "description": "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a medium to large, fleshy agaric, with red cap, white patches, white gills, ring and a bulbous base. It grows on poor and sandy soils and the fruiting bodies emerge from the soil looking like white eggs. Cap first round to hemispherical, and finally to plate-like and flat in mature specimens, often with a low, shallow depression on disk when fully expanded. Surface shiny; deep scarlet, fading to orange-red or orange-yellow in older specimens. Gills white, free or barely touching the stem, crowded. Stem white, robust and has the slightly brittle, fibrous texture. At the base is a bulb that bears universal veil remnants in the form of two to four distinct rings or ruffs. Between the basal universal veil remnants and gills are remnants of the partial veil (which covers the gills during development) in the form of a white ring. It can be quite wide and flaccid with age.",
     "folklore": "Magic properties and other-wordly entities."
   },
@@ -100,6 +107,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "Amanita pantherina, also known as the panther cap or panther amanita, is a medium to large fleshy agaric with brownish cap, pure white patches, white stem, ring, bulbous base with distinct margin. Cap shiny brown or grey-brown with a very finely striate margin, initially domed, later flatten, with densely distributed warts that are pure white to sordid cream, minutely verruculose and easily removable. Gills free, close to crowded, white becoming greyish, truncate. Stem subcyclindric, somewhat narrowing upward, white, becoming slightly tannish in age, stuffed then hollow, finely floccose becoming smooth above the white ring that is initially quite chunky but often becomes thin and floppy in more mature specimens, sometimes with a toothed edge."
   },
   {
@@ -112,6 +120,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a lethally poisonous, medium to large, fleshy agaric with greenish olive cap, whitish stem, ring, no patches but distinctive volval sheath. As the volva, which may be hidden by leaf litter, is a distinctive and diagnostic feature, it is important to remove some debris to check for it. Cap at first round to egg-shaped and then flat. Varies greatly in colour from gray-white to green and yellow brown and has dark radial lines from the center. Sometimes with lots of veil remnants. Gills free, close, white, can turn yellow. Stem white with a scattering of grayish-olive scales and with a swollen, ragged, sac-like white volva (base). Ring white or colored like the stem, broad, thin, persistent. Similar species Some Volvariella species look similar to older speciemens of Amanita phalloides. They are distinguished by a pale pink spore deposit and lack of a stem ring."
   },
   {
@@ -124,6 +133,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This medium to large, fleshy agaric that has greyish brown cap, sometimes with grey patches, white gills, ring, bulbous base, grows near coniferous trees. Cap hemispherical when young, later flat, greyish brown to brown in colour, usually smooth, sometimes with grey patches. Gills soft, crowded, white and free from the stem. Flesh is white with a smell of radish. Stem thick, smooth, white or pale yellow and has a grey to black ring. Has also a basal bulb. Similar species Amanita porphyria can easily be confused with much more poisonous species such as the Panther cap (Amanita pantherina)."
   },
   {
@@ -136,6 +146,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a medium to large, brown, fleshy agaric with cap patches, white gills, ring, basal bulb. Grows solitary or scattered on soil in mixed woods. Cap brown; at first convex, becoming expanded-convex or flattened, smooth and slightly greasy in damp conditions, decorated with delicate, non-persistent, whitish or whitish grey velar patches. Flesh white firm and medium. Gills are crowded close together, free from attachment to the stem, and white with a creamy yellow tinge. Stem white, smooth, lined above the ring. Ring large white and fairly firm, superior."
   },
   {
@@ -148,6 +159,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a large, rosy-brown, fleshy agaric that has cap patches, white gills, a bulbous base and ring on stem. A significant characteristics is that it blush when bruised or cut, and is since also called the blusher. It grows solitary or scattered on soil in woods generally. Cap pinkish brown with gray to pink patches on surface. At first it is sub-spherical, becoming convex and finally flattened. Flesh is moderately firm and white, becoming brownish pink where cut or damaged. Gills crowded, soft, white to off-white, free from stem, with pink tinges appearing on damaged areas. Spores are white. Stem downy, gray, white, or pink, bears a prominent pendent ring with furrows on it's upper surface. The base is swollen and girdled."
   },
   {
@@ -160,6 +172,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "Amanita virosa, also known as Destroying angel, is a lethally poisonous, medium large to large, white fleshy mushroom with a shaggy stalk and volval bag. It grows solitary or scattered on soil in broad-leaf or mixed woods. Cap white to yellow in color, at first round to egg shaped, then flat but often retaining a flat umbo, usually with veil remnants at the margins. The flesh white and firm. Gills white (can turn yellow), free, crowded. Stem long and thread-like and has tufts above the ring and arising from large bag-like vulva often buried deep in the soil. The large ring sits high on the stem. Easily breaks and falls off and is produced by the inner veil. Similar species Amanita bisporigera is a smaller, more slender, two-spored, but equally deadly mushroom. The mushroom can also be confused with edible Button mushrooms (Agaricus species). They have faint pink to brown gills, where Amanita virosa has white gills."
   },
   {
@@ -172,6 +185,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This large agaric has a convex, flattened, or wavy, olive-tinged, pale yellow-brown cap with a darker center and sparse pale scales. It grows in dense clusters on and around the stumps of leaf and coniferous trees. Cap convex at first but becoming flattened, often with a central raised umbo, later becoming somewhat dish-shaped. The margins are often arched at maturity and the surface is sticky when wet. Though typically ochraceous, this fungus is rather variable in appearance and sometimes has a few dark, hairy scales near the centre somewhat radially arranged. The flesh white, thin and firm. Gills at first white, sometimes becoming pinkish-yellow or discoloured with age, broad and fairly distant, attached to the stipe at right angles or are slightly decurrent, crowded. The spore print is white. Stem at first whitish, becoming yellowish or reddish brown, more or less equal or tapering towards the base, finely wholly. The ring is yellowish, cottony or woolly, superior and fairly persistent. Similar species The mushroom can be mistaken with Galerina marginata, which is deadly poisonous."
   },
   {
@@ -184,6 +198,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This mushroom is small to long medium sized, with a brown cap attached at one side or off center of the stem. The long, slender, stem rises from decaying pine cones. Cap flat to rounded. Upper side brown to dark purplish brown, covered with dark brown fibrils. Under side spiny. Flesh thin, flexible. Spines light to dark brown. Stem brown, hairy, rigid, joined laterally to the cap, swollen towards the base."
   },
   {
@@ -196,6 +211,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a medium to large, fleshy to fibrous cap with spiny under surface. It is dark yellowish brown at center to yellowish pink or pinkish brown on margin. It becomes mush darker and quickly water-soaked in wet weather. Cap convex at first, becoming flat or depressed at center. Margin thin, in-curved when young, lobed and wavy later. At first pallid, then brown with yellow or red tinges, remaining more pallid at the margin. Pine needles adhere to densely mattered surface fibrils. The flesh is soft and brittle. Stem white at the apex, becoming dull brownish below, equal or tapered towards the base, downy, sometimes eccentric. Similar species Bankera violascens has a clean, regularly shaped cap with lilac tints; it grown with spruce. Sarcodon species have colored spores."
   },
   {
@@ -208,6 +224,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a large bolete with bay-brown cap and lemon-yellow pores bruises distinctively bluish green. It grows in coniferous or mixed woods on the ground or on decaying tree stumps. Cap chestnut to dark brown, sometimes with brick-red or ochre tinges; almost spherical in young specimens before broadening and flattening out. It is at first downy, becoming smooth and polished, somewhat sticky when damp. Flesh is white or lemon-yellow. Where cut, it becomes faintly blue. Pores are initially cream to pale yellow, but become greenish yellow or olive with age. Stem is similar in colour to the cap but paler, and sometimes with a rose-coloured tinge and relatively slim and cylindrical (compared to many other boletes). The mushroom has no ring. Similar species Boletus edulis has a barrel-shaped stem with white net patterning. Synonyms Synonyms of Boletus badius include Imleria badia, Ixocomus badius and Xerocomus badius."
   },
   {
@@ -220,6 +237,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a large, robust bolete with dull brown cap, dirty white pores and stout and swollen stem. It has a white net over upper stem. It is a very popular, delicious, meaty mushroom that grows almost all over the world. Cap convex in shape when young and flattens with age, color is quite variable from light brown to reddish brown. Flesh white, unchanged when cut or bruised. The pore layer is quite hard when young and white changing to yellowish then to pea soup green to greenish brown becoming fairly soft at maturity. Tubes white at first, slowly becoming greyish yellow to olive-brown. Stem Very thick and club shaped and usually finely reticulated meaning it has a net shaped raised pattern on the surface. The reticulation is most pronounced near the top. The color can vary from whitish cream to reddish brown. It can become cylindrical at maturity. Ring absent. Interior solid. Similar species Boletus variipes has a dry, tan cap and grows with oak; Tylopilus felleus is similar when young but tastes bitter and is thus inedible."
   },
   {
@@ -232,6 +250,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a large bolete with dark brown cap, cream pores, reddish brown netted, bulbous stem, commonly known as the pine bolete or pinewood king bolete. It grows solitary or scattered on soil particularly with Scots pine in Britain. The mushroom prefers the poor, acidic, and sandy soils associated with coniferous forests. Cap deep red-brown or copper coloured. Stays convex for a while, but eventually flattens out. Often irregular in shape when mature. The surface is hard, dimpled and rough and sticky when damp. The flesh is white, tinged cap color beneath the cuticle, unchanging, thick, fairly firm. Pores white then cream colored, becoming olivaceous-brown with age, circular and small. Spores pallid olivaceous-yellow colored. Stem thick and egg pr pear shaped when young. The network pattern is dark brown at the bottom and gets lighter towards the cap. Flesh white, unchanging and fairly firm. The mushroom has no ring. Similar species The closely related Boletus edulis has brown color and grows with Pine. Tylopilus felleus is similar when young but tastes bitter and is thus inedible."
   },
   {
@@ -244,6 +263,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This lethally poisonous fleshy bolete has a smooth, bun-shaped cap that is almost white. Boletus satanas is best identified by its orange to blood-red pores and prominent yellow to blood-red net pattern. It also has a fat, yellow to red stem. Cap compact, at first it is hemispheric with an inrolled margin, later flattening in the shape of a pad, and in older specimens it is bent irregularly. The pileus at first greyish white, later more greenish ochre or leather colour. The surface of the cap is finely tomentose, later smooth and often slightly sticky in wet weather. Pores are small, circular and red, sometimes blood-red, but orange at margin. The free to slightly adnate tubes are yellow then olive, blue where cut. Stem yellow background covered with a hexagonal close-meshed net that starts bright red and turns dark blood-red. Often very bulbous and usually wider than it is long. When young almost spherical."
   },
   {
@@ -256,6 +276,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This medium to large bolete is commonly known as suede bolete or yellow-cracked bolete. It has a brown cap, chrome-yellow pores, and yellowish stem and grows with a wide range of hardwood and conifer trees. Cap pale olive or tan, initially convex before flattening with a velvety tan surface, often becoming cracked in age. Flesh is white or pallid yellow, with a faint brownish zone beneath the cap cuticle; it is unchanging, thick and soft. The pore surface is yellow, becoming olive yellow with maturity and bruise blue or green before fading somewhat. Stem is a pallid cap color, sometimes with a brick-red tinge; it is slender and slightly bulbous. The mushroom has no ring. Flesh is similarly colored as the cap but browner. Similar species Boletus chrysenteron has a reddish brown cap that cracks to reveal a red underlayer. Boletus pruinatus is smaller."
   },
   {
@@ -268,6 +289,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "Bondarzewia berkeleyi, commonly known as Berkeley's polypore, or stump blossoms, is a species of polypore fungus in the family Russulaceae. It is a parasitic species that causes butt rot in oaks and other hardwood trees. Although Bondarzewia berkeleyi is edible, it has been compared to eating shoe leather. Fruiting body The fan- or shelf-shaped caps grow in overlapping clumps from the bases of oak trees, each capable of growing to 25.5 cm diameter. They are various shades of white to pale grey, cream, beige or yellow. The pore surface is white, as is the spore print. The outer edges that cut easily with a knife are quite tender."
   },
   {
@@ -280,6 +302,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This small, white, puffball, often referred to as the paltry puffball, is attached to the stony surface by several strands. It often live scattered to clustered in disturbed areas, especially in sparse grass and pastures. Fruiting body attached to the substrate by a tuft of mycelium, and spherical to slightly compressed. The surface is white, becoming buff to pale-tan and minutely tomentose. It is falling away in flakes at maturity to reveal dark grey papery contents. Spores are olive to sepia-brown."
   },
   {
@@ -292,6 +315,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a yellow, antler-like, gelatinous fungus which grows in tufts or stumps and roots of coniferous trees. It fruits throughout the year, but is most commonly seen in autumn. Fruiting body bright orange, yellow or occasionally white branching basidiocarps, which are somewhat gelatinous and somewhat slimy when wet. Branches are sometimes flattened and sometimes forked at tips. Similar species Calocera cornea has small, unbrached clubs and grows on deciduous twigs. Calocera furcata is forked and grows on pine wood. Paler Calocera pallidospathulata is flattened and irregular. Gymnospoarngium clavariiforme, found on juniper, is less erect and without branches at the tips."
   },
   {
@@ -304,6 +328,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "Calocybe gambosa, commonly known as St. George's mushroom, is an edible, medium to large, fleshy, cream mushroom which typically grows in rings or troops on soil. It is most commonly found in pastures but also less frequently appearing in mixed woods. Cap white-creamy coloured to bright yellow, often with brownish tinge. At first sub-spherical, becoming expanded and irregularly convex with an incurved margin. Gills sinuate, white and crowded. The flesh is thick and soft and has a mealy or cucumber smell. The spore print is white to pinkish white. Stem whitish, smooth, bulky at the base. The mushroom has no ring. Similar species Spring fruiting white Entoloma species are distinguished by pink spore deposits and pink mature gills."
   },
   {
@@ -316,6 +341,7 @@
     "edible": false,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "Calocybe persicolor is a small pink-capped mushroom with white gills that can be found in grassy meadows, fields, or on lawns from spring to autumn. It is less frequently found in open grasslands. Cap convex to umbonate, smooth fleshy and pink coloured. It has a somewhat irregular margin and is covered with whitish dust or bloom. The flesh is white with pink tinge beneath cuticle. Gills are white, crowded, sinuate and notched. Stem pallid similarly colored as the cap. Smooth, fleshy, tapers slightly upwards. Similar species Calocybe carnea is less dull without the hairy stem base."
   },
   {
@@ -328,6 +354,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This is a small to medium-sized, funnel-shaped agaric with grey cap and forked gills grows associated with Polytrichum moss and fruits in the summer and fall. Cap convex at first, becoming flat to sunken; most specimens with a small, pointed umbo; margin incurved at first, becoming upturned and wavy in age; surface gray to grayish brown overall, often appearing to have whitish blotches; dry to moist; smooth to minutely hairy; flesh white; odor and taste not distinctive. Gills close to crowded, decurrent, repeatedly and regularly forked; whitish, developing spot-like reddish or sometimes yellow stains in age. Stem often with swollen portions; some-what flexible, often bent, curved, and/or twisted; white to gray; silky above, stuffed, usually with whitish mycelium binding the lower stalk to mass; often water-saturated near the base. Spore print white. Similar species Cantharellus tubaeformis dingy-brown cap bearing forked veins instead of gills."
   },
   {
@@ -340,6 +367,7 @@
     "edible": true,
     "medicinal": false,
     "identification": "",
+    "similar": "",
     "description": "This mushroom is typically orange or yellow, meaty and funnel-shaped. On the lower surface, underneath the smooth cap, it has gill-like ridges that run almost all the way down its stem, which tapers down seamlessly from the cap. Cap light yellow, bright yellow to orange in colour, fading with age. As young formed as a button and then turns more cone shaped. The margin stays folded in for a long time and then often becomes wavy and uneven at maturity. The mushroom has gill-like veins under the cap, not gills. Flesh firm, thick, yellow. Stem solid, tapers downward from cap. The surface is smooth and the colour similar to the cap or a lighter yellow to almost white. Similar spiecies Hygrophoropsis aurantiaca which is not mycorrhizal. Can also be confused with the poisonous mushrooms Omphalotus olearius, which has a luminous quality and grows on dead wood, and Cortinarius speciosissimus."
   }
 ]

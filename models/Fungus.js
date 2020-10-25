@@ -21,6 +21,9 @@ const FungusSchema = new mongoose.Schema({
   identification: {
     type: String,
   },
+  similar: {
+    type: String,
+  },
   dimensions: {
     type: String,
   },
