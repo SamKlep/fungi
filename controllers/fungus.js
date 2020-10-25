@@ -7,20 +7,44 @@ const Fungus = require('../models/Fungus.js')
 // @route       GET /api/v1/fungus
 // @access      Public
 exports.getFungi = asyncHandler(async (req, res, next) => {
-  console.log(req.query)
+  let query
+
+  // Copy req.query
+  const reqQuery = { ...req.query }
+
+  // Fields to exclude
+  const removeFields = ['select', 'sort', 'page', 'limit']
+
+  // Loop over removeFields and delete them from reqQuery
+  removeFields.forEach((param) => delete reqQuery[param])
+
+  // Create query string
+  let queryStr = JSON.stringify(reqQuery)
+
+  // Create operators ($gt, $gte, etc)
+  queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g, (match) => `$${match}`)
+
+  // Finding resource
+  query = Fungus.find(JSON.parse(queryStr))
+
+  // Select fields
+  if (req.query.select) {
+    const fields = req.query.select.split(',').join(' ')
+    query = query.select(fields)
+  }
+
+  // Pagination
   const pagination = req.query.pagination ? parseInt(req.query.pagination) : 12
+  const page = parseInt(req.query.page, 10) || 1
+  const limit = parseInt(req.query.limit, 10 || 25)
+  const skip = (page - 1) * pagination
 
-  const page = req.query.page ? parseInt(req.query.page) : 1
+  query = query.skip(skip).limit(pagination)
 
-  const fungi = await Fungus.find(req.query)
-    .skip((page - 1) * pagination)
-    .limit(pagination)
+  // Executing query
+  const fungi = await query
 
-  res.status(200).json({
-    success: true,
-    count: fungi.length,
-    data: fungi,
-  })
+  res.status(200).json({ success: true, count: fungi.length, data: fungi })
 })
 
 // @desc        Get single fungus

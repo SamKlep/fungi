@@ -1,4 +1,6 @@
-const advancedResults = (model) => async (req, res, next) => {
+const { populate } = require('../models/Fungus');
+
+const advancedResults = (model, populate) => async (req, res, next) => {
   let query
 
   // Copy req.query
