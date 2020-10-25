@@ -1,6 +1,6 @@
 import React from 'react'
-import LinksInfo from '../LinksInfo'
-import LinksPills from '../LinksPills'
+import LinksInfo from '../learn/LinksInfo'
+import LinksPills from '../learn/LinksPills'
 import { Container } from 'react-bootstrap'
 
 const Links = () => {

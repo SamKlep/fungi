@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import IdentifyPills from '../IdentifyPills'
+import IdentifyPills from '../identify/IdentifyPills'
 
 const Identify = () => {
   return (

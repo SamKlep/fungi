@@ -3,7 +3,7 @@ import axios from 'axios'
 import '../../App.css'
 import EdibleGrid from '../../components/edible/EdibleGrid'
 import EdibleContent from '../edible/EdibleContent'
-import EdiblePills from '../../components/EdiblePills'
+import EdiblePills from '../edible/EdiblePills'
 import { Container } from 'react-bootstrap'
 
 const Breathe = () => {

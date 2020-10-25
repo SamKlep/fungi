@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Header from './components/Header'
+import Header from './components/ui/Header'
 
-import Footer from './components/Footer'
+import Footer from './components/ui/Footer'
 import Home from './components/pages/Home'
 import Learn from './components/pages/Learn'
 import Explore from './components/pages/Explore'

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import '../../App.css'
 import FungiGrid from '../fungi/FungiGrid'
-import Pages from '../../Pages'
+import Pages from '../learn/Pages'
 
 const AllFungi = () => {
   const [fungi, setFungus] = useState([])

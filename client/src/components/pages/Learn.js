@@ -1,8 +1,8 @@
 import React from 'react'
-import Info from '../Info'
+import Info from '../learn/Info'
 import AllFungi from './AllFungi'
-import Define from '../Define'
-import Pills from '../Pills'
+import Define from '../learn/Define'
+import Pills from '../learn/Pills'
 import { Container } from 'react-bootstrap'
 
 const Learn = () => {

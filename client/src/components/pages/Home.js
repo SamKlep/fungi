@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Submit from '../Submit'
-import ImgCarousel from '../ImgCarousel'
-import Main from '../Main'
+import Submit from '../home/Submit'
+import ImgCarousel from '../home/ImgCarousel'
+import Main from '../home/Main'
 
 const Home = () => {
   return (

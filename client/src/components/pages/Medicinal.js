@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import '../../App.css'
-import MedicinalPills from '../../components/MedicinalPills'
+import MedicinalPills from '../medicinal/MedicinalPills'
 import MedicinalContent from '../medicinal/MedicinalContent'
 import MedicinalGrid from '../medicinal/MedicinalGrid'
 import { Container } from 'react-bootstrap'
