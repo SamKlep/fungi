@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import '../../App.css'
 import FungiGrid from '../fungi/FungiGrid'
+import Pages from '../../Pages'
 
 const AllFungi = () => {
   const [fungi, setFungus] = useState([])
@@ -22,6 +23,8 @@ const AllFungi = () => {
   return (
     <div className='container mb-5'>
       <FungiGrid isLoading={isLoading} fungi={fungi} />
+      <br />
+      <Pages />
     </div>
   )
 }

@@ -52,7 +52,9 @@ exports.getFungi = asyncHandler(async (req, res, next) => {
   // Executing query
   const fungi = await query
 
-  res.status(200).json({ success: true, count: fungi.length, data: fungi })
+  res
+    .status(200)
+    .json({ success: true, count: fungi.length, pagination, data: fungi })
 })
 
 // @desc        Get single fungus
