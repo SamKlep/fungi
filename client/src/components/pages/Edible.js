@@ -12,7 +12,7 @@ const Breathe = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`/api/v1/fungus?edibility=true`)
+      const result = await axios(`/api/v1/fungus?edible=true`)
 
       console.log(result.data)
       setFungus(result.data)

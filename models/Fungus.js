@@ -5,7 +5,7 @@ const FungusSchema = new mongoose.Schema({
   name: {
     type: String,
   },
-  subName: {
+  subname: {
     type: String,
   },
   slug: String,
@@ -18,11 +18,13 @@ const FungusSchema = new mongoose.Schema({
   imgUrl: {
     type: String,
   },
-
+  identification: {
+    type: String,
+  },
   dimensions: {
     type: String,
   },
-  edibility: {
+  edible: {
     type: Boolean,
     default: false,
   },
@@ -36,7 +38,7 @@ const FungusSchema = new mongoose.Schema({
   folklore: {
     type: String,
   },
-  
+
   createdAt: {
     type: Date,
     default: Date.now,

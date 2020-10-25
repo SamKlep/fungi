@@ -22,12 +22,13 @@ const MedicinalItem = ({ fungus }) => {
             </li>
             <li>
               <strong> Sub-Name: </strong>
-              {fungus.subName}
+              {fungus.subname}
             </li>
             <li>
               <strong> Location: </strong>
               {fungus.location}
             </li>
+            <li>{fungus.medicinal === true ? 'Medicinal' : ''}</li>
           </ul>
         </div>
       </div>

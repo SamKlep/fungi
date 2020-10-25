@@ -22,7 +22,7 @@ const BreatheItem = ({ fungus }) => {
             </li>
             <li>
               <strong> Sub-Name: </strong>
-              {fungus.subName}
+              {fungus.subname}
             </li>
             <li>
               <strong> Location: </strong>

@@ -22,12 +22,13 @@ const EdibleItem = ({ fungus }) => {
             </li>
             <li>
               <strong> Sub-Name: </strong>
-              {fungus.subName}
+              {fungus.subname}
             </li>
             <li>
               <strong> Location: </strong>
               {fungus.location}
             </li>
+            <li>{fungus.edible === true ? 'Edible' : 'Inedible'}</li>
           </ul>
         </div>
       </div>
