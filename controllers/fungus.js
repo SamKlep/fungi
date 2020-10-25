@@ -33,6 +33,14 @@ exports.getFungi = asyncHandler(async (req, res, next) => {
     query = query.select(fields)
   }
 
+  // Sort
+  if (req.query.sort) {
+    const sortBy = req.query.sort.split(',').join(' ')
+    query = query.sort(sortBy)
+  } else {
+    query = query.sort('-creadtedAt')
+  }
+
   // Pagination
   const pagination = req.query.pagination ? parseInt(req.query.pagination) : 12
   const page = parseInt(req.query.page, 10) || 1
