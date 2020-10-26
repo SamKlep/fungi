@@ -169,7 +169,7 @@ exports.fungusPhotoUpload = asyncHandler(async (req, res, next) => {
 })
 
 // @desc        Get random entry
-// @route       GET /api/v1/random
+// @route       GET /api/v1/fungus/random
 // @access      Public
 exports.getRandom = asyncHandler(async (req, res, next) => {
   const fungi = await Fungus.aggregate([{ $sample: { size: 1 } }])
@@ -182,7 +182,7 @@ exports.getRandom = asyncHandler(async (req, res, next) => {
 })
 
 // @desc        Search for fungi
-// @route       GET /api/v1/search
+// @route       GET /api/v1/fungus/search
 // @access      Public
 exports.searchFungi = asyncHandler(async (req, res, next) => {
   const fungi = await Fungus.find({ $text: { $search: req.query.q } })

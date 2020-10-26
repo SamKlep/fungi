@@ -10,7 +10,7 @@ const SearchBar = ({ getQuery }) => {
   }
 
   return (
-    <div>
+    <>
       <Form inline>
         <FormControl type='text' placeholder='Search' className='mr-sm-2' />
         <Button
@@ -19,7 +19,7 @@ const SearchBar = ({ getQuery }) => {
           Search
         </Button>
       </Form>
-    </div>
+    </>
   )
 }
 

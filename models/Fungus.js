@@ -3,7 +3,7 @@ const slugify = require('slugify')
 
 const FungusSchema = new mongoose.Schema({
   name: {
-    type: String,
+    type: [String, null],
   },
   subname: {
     type: String,
