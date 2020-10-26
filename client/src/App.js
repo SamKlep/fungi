@@ -31,7 +31,7 @@ function App() {
         <Route path='/explore' component={FungusContainer} />
         <Route path='/breathe' component={Breathe} />
         <Route path='/fungus/:id' component={FungusScreen} />
-        <Route path='/notfound' component={NotFound} />
+        <Route component={NotFound} />
       </Switch>
       <br />
 
