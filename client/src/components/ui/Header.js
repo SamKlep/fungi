@@ -2,14 +2,14 @@ import React from 'react'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
-const Header = () => {
+const Header = ({ _id, fungus, q }) => {
   return (
     <div>
       <Navbar bg='dark' variant='dark'>
         <LinkContainer to='/'>
           <Navbar.Brand className='text-info logo'>Fungi API</Navbar.Brand>
         </LinkContainer>
-        <Nav className='mr-auto'>
+        <Nav className='ml-auto'>
           <LinkContainer to='/learn'>
             <Nav.Link>Learn</Nav.Link>
           </LinkContainer>
@@ -20,10 +20,10 @@ const Header = () => {
             <Nav.Link>Breathe</Nav.Link>
           </LinkContainer>
         </Nav>
-        <Form inline>
+        {/* <Form inline>
           <FormControl type='text' placeholder='Search' className='mr-sm-2' />
           <Button variant='outline-info'>Search</Button>
-        </Form>
+        </Form> */}
       </Navbar>
     </div>
   )

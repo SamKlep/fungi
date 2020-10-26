@@ -3,7 +3,7 @@ const slugify = require('slugify')
 
 const FungusSchema = new mongoose.Schema({
   name: {
-    type: [String, null],
+    type: String,
   },
   subname: {
     type: String,
@@ -51,9 +51,9 @@ const FungusSchema = new mongoose.Schema({
 FungusSchema.index({ '$**': 'text' })
 
 // Create fungus slug from name
-FungusSchema.pre('save', function (next) {
-  this.slug = slugify(this.name, { lower: true })
-  next()
-})
+// FungusSchema.pre('save', function (next) {
+//   this.slug = slugify(this.name, { lower: true })
+//   next()
+// })
 
 module.exports = mongoose.model('Fungus', FungusSchema)

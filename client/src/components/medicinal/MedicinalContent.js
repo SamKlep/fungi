@@ -10,13 +10,17 @@ const MedicinalContent = () => {
         </h1>
 
         <Row className='justify-content-md-center'>
-          <Col lg='8' className='lead mb-5'>
+          <Col lg='8' className='lead mb-2'>
             <p>
-              Cultures around the world have eaten or used mushrooms medicinally
-              for centuries, dating all the way back to ancient Egypt. Legend
-              has it that pharaohs liked their earthy flavor so much, they
-              declared the fungi royalty food and forbid commoners from touching
-              them. Those greedy pharaohs kept the entire supply for themselves.
+              Mushrooms have long been touted for their myriad of health
+              benefits, and the use of medicinal mushroom dates back thousands
+              of years. Now, in recent times with functional medicine and
+              nutrition going mainstream, we’re seeing a resurgence of interest
+              in these marvelous superfoods.
+            </p>
+            <p>
+              Before running to your local supplement shop, use the search bar
+              below to enter key characteristics of a fungus in question.
             </p>
           </Col>
         </Row>

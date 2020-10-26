@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import FungusListItem from './FungusListItem'
-import './fungus.css'
+import MedicinalListItem from './MedicinalListItem'
 
-const FungusContainer = () => {
+const MedicinalContainer = () => {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState([])
   const [q, setQ] = useState('')
@@ -13,7 +12,7 @@ const FungusContainer = () => {
   useEffect(() => {
     setLoading(true)
     axios
-      .get(`/api/v1/fungus?name=${fungus}`)
+      .post(`/api/v1/fungus/search?q=${fungus}`)
       .then((response) => {
         setData(response.data)
         console.log(response.data)
@@ -35,7 +34,7 @@ const FungusContainer = () => {
 
   return (
     <div className='container mt-3'>
-      <h1>Explore</h1>
+      <h1>Search</h1>
       <form onSubmit={handleSubmit}>
         <input
           className='search-explore'
@@ -49,10 +48,10 @@ const FungusContainer = () => {
       <br />
       {q}
       {data.data.map((fungus, _id) => (
-        <FungusListItem key={_id} fungus={fungus} q={q} />
+        <MedicinalListItem key={_id} fungus={fungus} q={q} />
       ))}
     </div>
   )
 }
 
-export default FungusContainer
+export default MedicinalContainer

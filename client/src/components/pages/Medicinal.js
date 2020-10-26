@@ -1,36 +1,21 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
-import '../../App.css'
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
 import MedicinalPills from '../medicinal/MedicinalPills'
+import MedicinalContainer from '../medicinal/MedicinalContainer'
 import MedicinalContent from '../medicinal/MedicinalContent'
-import MedicinalGrid from '../medicinal/MedicinalGrid'
-import { Container } from 'react-bootstrap'
+import Pages from '../learn/Pages'
 
-const Medicinal = () => {
-  const [fungi, setFungus] = useState([])
-  const [isLoading, setIsLoading] = useState([true])
-
-  useEffect(() => {
-    const fetchItems = async () => {
-      const result = await axios(`/api/v1/fungus?medicinal=true`)
-
-      console.log(result.data)
-      setFungus(result.data)
-      setIsLoading(false)
-    }
-
-    fetchItems()
-  }, [])
-
+const Identify = () => {
   return (
     <Container>
       <MedicinalPills />
-      <div className='container mt-5 mb-5'>
-        <MedicinalContent />
-        <MedicinalGrid isLoading={isLoading} fungi={fungi} />
-      </div>
+      <MedicinalContent />
+      <MedicinalContainer />
+      <br />
+      <Pages />
+      <br />
     </Container>
   )
 }
 
-export default Medicinal
+export default Identify
