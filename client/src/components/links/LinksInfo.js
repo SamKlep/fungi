@@ -22,7 +22,7 @@ const LinksInfo = () => {
               <a href='https://hostdefense.com/' target='_blank'>
                 Host Defense
               </a>{' '}
-              Real wellness with natural intelligence. Harnessing the power of
+              - Real wellness with natural intelligence. Harnessing the power of
               mushrooms to support your health.
             </li>
             <li>
