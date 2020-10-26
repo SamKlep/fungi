@@ -20,8 +20,9 @@ function App() {
   return (
     <Router>
       <Header />
-      <Route path='/' component={Home} exact />
+
       <Switch>
+        <Route path='/' component={Home} exact />
         <Route path='/learn' component={Learn} />
         <Route path='/history' component={History} />
         <Route path='/links' component={Links} />
@@ -31,6 +32,7 @@ function App() {
         <Route path='/explore' component={FungusContainer} />
         <Route path='/breathe' component={Breathe} />
         <Route path='/fungus/:id' component={FungusScreen} />
+        <Route path='*' component={NotFound} />
         <Route component={NotFound} />
       </Switch>
       <br />
