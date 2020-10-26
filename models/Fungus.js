@@ -48,6 +48,8 @@ const FungusSchema = new mongoose.Schema({
   },
 })
 
+FungusSchema.index({ '$**': 'text' })
+
 // Create fungus slug from name
 FungusSchema.pre('save', function (next) {
   this.slug = slugify(this.name, { lower: true })

@@ -185,8 +185,8 @@ exports.getRandom = asyncHandler(async (req, res, next) => {
 // @route       GET /api/v1/search
 // @access      Public
 exports.searchFungi = asyncHandler(async (req, res, next) => {
-  const fungi = await Fungus.find({ name: req.body.query })
-
+  const fungi = await Fungus.find({ $text: { $search: req.query.q } })
+  console.log(req.query.q)
   res.status(200).json({
     success: true,
     count: fungi.length,
