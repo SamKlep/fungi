@@ -5,6 +5,7 @@ import EdibleGrid from '../../components/edible/EdibleGrid'
 import EdibleContent from '../edible/EdibleContent'
 import EdiblePills from '../edible/EdiblePills'
 import { Container } from 'react-bootstrap'
+import Pages from '../learn/Pages'
 
 const Breathe = () => {
   const [fungi, setFungus] = useState([])
@@ -29,6 +30,10 @@ const Breathe = () => {
         <EdibleContent />
         <EdibleGrid isLoading={isLoading} fungi={fungi} />
       </div>
+      <br />
+      <Pages />
+      <br />
+      <br />
     </Container>
   )
 }
