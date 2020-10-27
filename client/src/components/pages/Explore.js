@@ -3,6 +3,7 @@ import axios from 'axios'
 import '../../App.css'
 import FungiGrid from '../fungi/FungiGrid'
 import Search from '../fungi/Search'
+import Dropdown from '../search/Dropdown'
 
 const Explore = () => {
   const [fungi, setFungus] = useState([])
@@ -25,6 +26,7 @@ const Explore = () => {
     <div className='container mt-5 mb-5'>
       <h1>Explore</h1>
       <Search getQuery={(q) => setQuery(q)} />
+      <Dropdown />
       <FungiGrid isLoading={isLoading} fungi={fungi} />
     </div>
   )

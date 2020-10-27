@@ -19,7 +19,10 @@ const LinksInfo = () => {
           <br />
           <ul className='links-list'>
             <li>
-              <a href='https://hostdefense.com/' target='_blank'>
+              <a
+                href='https://hostdefense.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
                 Host Defense
               </a>{' '}
               - Real wellness with natural intelligence. Harnessing the power of
@@ -51,7 +54,10 @@ const LinksInfo = () => {
             </li>
 
             <li>
-              <a href='https://www.thegreatmorel.com/' target='_blank'>
+              <a
+                href='https://www.thegreatmorel.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
                 The Great Morel
               </a>{' '}
               - THE site on the Internet for morel mushrooms. Everything you
@@ -59,7 +65,10 @@ const LinksInfo = () => {
               stories, and wonderful pictures.
             </li>
             <li>
-              <a href='https://www.thegreatmorel.com/' target='_blank'>
+              <a
+                href='https://www.thegreatmorel.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
                 The Great Morel
               </a>{' '}
               - THE site on the Internet for morel mushrooms. Everything you
@@ -67,7 +76,10 @@ const LinksInfo = () => {
               stories, and wonderful pictures.
             </li>
             <li>
-              <a href='http://mushroaming.com/' target='_blank'>
+              <a
+                href='http://mushroaming.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
                 Daniel Winkler's MushRoaming
               </a>{' '}
               - A fascinating site on mushrooms in Tibet, particularly
@@ -76,7 +88,10 @@ const LinksInfo = () => {
               nature-focused tours in Tibet!
             </li>
             <li>
-              <a href='http://www.morelmania.com/' target='_blank'>
+              <a
+                href='http://www.morelmania.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
                 Morel Mania, Inc.
               </a>{' '}
               - Still crazy about morels? This site lists events, morel mushroom
@@ -86,7 +101,8 @@ const LinksInfo = () => {
             <li>
               <a
                 href='http://www.thenibble.com/reviews/main/vegetables/specialty-mushrooms.asp'
-                target='_blank'>
+                target='_blank'
+                rel='noopener noreferrer'>
                 The Nibble Magazine
               </a>{' '}
               - Interesting online magazine about specialty foods. The link
@@ -95,7 +111,10 @@ const LinksInfo = () => {
               National Milkshake Day!?)
             </li>
             <li>
-              <a href='https://www.untamedfeast.com/' target='_blank'>
+              <a
+                href='https://www.untamedfeast.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
                 Untamed Feast
               </a>{' '}
               - A wild mushroom products website with many fun and beautiful
@@ -104,7 +123,8 @@ const LinksInfo = () => {
             <li>
               <a
                 href='http://www.elfram.com/fungi/fungi_home.html#top'
-                target='_blank'>
+                target='_blank'
+                rel='noopener noreferrer'>
                 Fungi of Australia
               </a>{' '}
               - If you're interested in fungi from other parts of the world, be
