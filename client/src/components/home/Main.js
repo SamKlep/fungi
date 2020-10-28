@@ -8,49 +8,56 @@ const Main = () => {
         <Row>
           <Col>
             <Figure>
-              <Figure.Image
-                width={300}
-                height={300}
-                alt='171x180'
-                src='/img/main_fungi1.jpeg'
-              />
+              <a href='/info'>
+                <Figure.Image
+                  width={300}
+                  height={300}
+                  alt='171x180'
+                  src='/img/main_fungi1.jpeg'
+                />
+              </a>
               <hr />
               <Figure.Caption>
-                Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla
-                vitae elit libero, a pharetra augue mollis interdum. Nulla vitae
-                elit libero, a pharetra augue mollis interdum.
+                A mushroom or toadstool is the fleshy, spore-bearing fruiting
+                body of a fungus, typically produced above ground, on soil, or
+                on its food source...
               </Figure.Caption>
             </Figure>
           </Col>
           <Col>
             <Figure>
-              <Figure.Image
-                width={300}
-                height={300}
-                alt='171x180'
-                src='/img/main_fungi2.jpeg'
-              />
+              <a href='/history'>
+                <Figure.Image
+                  width={300}
+                  height={300}
+                  alt='171x180'
+                  src='/img/main_fungi2.jpeg'
+                />
+              </a>
               <hr />
               <Figure.Caption>
-                Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla
-                vitae elit libero, a pharetra augue mollis interdum.Nulla vitae
-                elit libero, a pharetra augue mollis interdum.
+                Throughout history mushrooms have gained many varying
+                reputations, considered both food and foe. Today it is easy for
+                us to find safe, tasty mushrooms at the grocery store, but it
+                wasn't always this way...
               </Figure.Caption>
             </Figure>
           </Col>
           <Col>
             <Figure>
-              <Figure.Image
-                width={300}
-                height={300}
-                alt='171x180'
-                src='/img/main_fungi3.jpeg'
-              />
+              <a href='/breathe'>
+                <Figure.Image
+                  width={300}
+                  height={300}
+                  alt='171x180'
+                  src='/img/main_fungi3.jpeg'
+                />
+              </a>
               <hr />
               <Figure.Caption>
-                Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla
-                vitae elit libero, a pharetra augue mollis interdum.Nulla vitae
-                elit libero, a pharetra augue mollis interdum.
+                Cultures around the world have eaten or used mushrooms
+                medicinally for centuries, dating all the way back to ancient
+                Egypt. Legend has it...
               </Figure.Caption>
             </Figure>
           </Col>
