@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardDeck, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-const Filler = () => {
+const Filter = () => {
   return (
     <div className='container'>
       <CardDeck>
@@ -49,4 +49,4 @@ const Filler = () => {
   )
 }
 
-export default Filler
+export default Filter

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import FungusListItem from './FungusListItem'
 import './fungus.css'
-import Select from '../dropdown/Dropdown'
+import Filter from '../search/Filter'
 
 const FungusContainer = () => {
   const [data, setData] = useState([])
@@ -64,7 +64,7 @@ const FungusContainer = () => {
           />
         </form>
         <br />
-        <Select />
+        <Filter />
         <br />
         <br />
         {q}
