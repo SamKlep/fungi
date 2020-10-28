@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import '../../App.css'
-
+import EdibleGrid from '../../components/edible/EdibleGrid'
+import MedicinalContent from '../medicinal/MedicinalContent'
+import MedicinalPills from '../medicinal/MedicinalPills'
 import { Container, Button } from 'react-bootstrap'
 import Pages from '../learn/Pages'
-import MedicinalGrid from '../medicinal/MedicinalGrid'
-import MedicinalContent from '../medicinal/MedicinalContent'
+import PoisonousContent from '../poisonous/PoisonousContent'
 
 const Breathe = () => {
   const [fungi, setFungus] = useState([])
@@ -13,7 +14,7 @@ const Breathe = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`/api/v1/fungus?medicinal=true`)
+      const result = await axios.post(`/api/v1/fungus/search?q=poisonous`)
 
       console.log(result.data)
       setFungus(result.data)
@@ -32,8 +33,8 @@ const Breathe = () => {
         </Button>
       </a>
       <div className='container mt-5 mb-5'>
-        <MedicinalContent />
-        <MedicinalGrid isLoading={isLoading} fungi={fungi} />
+        <PoisonousContent />
+        <EdibleGrid isLoading={isLoading} fungi={fungi} />
       </div>
       <br />
       <Pages />

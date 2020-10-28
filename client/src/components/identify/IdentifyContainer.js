@@ -34,7 +34,6 @@ const IdentifyContainer = () => {
 
   return (
     <div className='container mt-3'>
-      <h1>Identify</h1>
       <form onSubmit={handleSubmit}>
         <input
           className='search-explore'

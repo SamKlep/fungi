@@ -16,8 +16,8 @@ const Header = ({ _id, fungus, q }) => {
           <LinkContainer to='/explore'>
             <Nav.Link>Explore</Nav.Link>
           </LinkContainer>
-          <LinkContainer to='/breathe'>
-            <Nav.Link>Breathe</Nav.Link>
+          <LinkContainer to='/identify'>
+            <Nav.Link>Identify</Nav.Link>
           </LinkContainer>
         </Nav>
         {/* <Form inline>

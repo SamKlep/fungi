@@ -7,9 +7,8 @@ import Pages from '../learn/Pages'
 const Identify = () => {
   return (
     <Container>
-      <IdentifyPills />
       <Container className='justify-content-md-center'>
-        <h1 className='display-4 text-center justify-content-md-center'>
+        <h1 className='display-4 mt-4 text-center justify-content-md-center'>
           Identify
         </h1>
 

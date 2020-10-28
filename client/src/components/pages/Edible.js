@@ -4,7 +4,7 @@ import '../../App.css'
 import EdibleGrid from '../../components/edible/EdibleGrid'
 import EdibleContent from '../edible/EdibleContent'
 import EdiblePills from '../edible/EdiblePills'
-import { Container } from 'react-bootstrap'
+import { Container, Button } from 'react-bootstrap'
 import Pages from '../learn/Pages'
 
 const Breathe = () => {
@@ -25,7 +25,12 @@ const Breathe = () => {
 
   return (
     <Container>
-      <EdiblePills />
+      <br />
+      <a href='/explore'>
+        <Button className='mr-auto' size='lg' variant='outline-info'>
+          Go back
+        </Button>
+      </a>
       <div className='container mt-5 mb-5'>
         <EdibleContent />
         <EdibleGrid isLoading={isLoading} fungi={fungi} />

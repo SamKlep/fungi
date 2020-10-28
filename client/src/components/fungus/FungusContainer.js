@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import FungusListItem from './FungusListItem'
 import './fungus.css'
-import Dropdown from '../search/Dropdown'
+import Select from '../dropdown/Dropdown'
 
 const FungusContainer = () => {
   const [data, setData] = useState([])
@@ -64,7 +64,7 @@ const FungusContainer = () => {
           />
         </form>
         <br />
-        <Dropdown title='Select type' items={items} multiSelects />
+        <Select />
         <br />
         <br />
         {q}
