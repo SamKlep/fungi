@@ -6,7 +6,13 @@ const HistoryContent = () => {
     <div className='text-center container mt-3 mb-3'>
       <Row className='justify-content-md-center pill-links'>
         <Col lg='8'>
-          <Image className='mb-3' src='/img/fungus.jpeg' />
+          <Image
+            className='mb-5'
+            width={400}
+            height={300}
+            alt='171x180'
+            src='/img/fungus3.jpeg'
+          />
           <p>
             Throughout history mushrooms have gained many varying reputations,
             considered both food and foe. Today it is easy for us to find safe,
@@ -21,7 +27,7 @@ const HistoryContent = () => {
             see me hunting for wild mushrooms without an expert guide by my
             side. As weve familiarized ourselves with their many different
             species, mushrooms have become less forbidding. With the recent
-            focus on locally sourced food and foraging, the allure of the
+            focus on locally sourced food and foraging, the allure of thez
             mushroom doesnt seem to be slowing down. If anything, mushrooms are
             now more popular than ever.
           </p>
@@ -31,7 +37,13 @@ const HistoryContent = () => {
       </Row>
       <Row className='justify-content-md-center pill-links'>
         <Col lg='8'>
-          <Image className='mb-3' src='/img/fungus.jpeg' />
+          <Image
+            className='mb-5'
+            width={400}
+            height={300}
+            alt='171x180'
+            src='/img/history_fungi2.jpeg'
+          />
           <p>
             Mushrooms are often lumped into the vegetable category, though most
             of us know that they are actually a fungus. Today the most commonly
@@ -50,7 +62,13 @@ const HistoryContent = () => {
       </Row>
       <Row className='justify-content-md-center pill-links'>
         <Col lg='8'>
-          <Image className='mb-3' src='/img/fungus.jpeg' />
+          <Image
+            className='mb-5'
+            width={400}
+            height={300}
+            alt='171x180'
+            src='/img/history_fungi3.jpeg'
+          />
           <p>
             A great deal of the mystery surrounding mushrooms stems from their
             association with poisonings and accidental deaths. The famous French
@@ -69,7 +87,13 @@ const HistoryContent = () => {
       </Row>
       <Row className='justify-content-md-center pill-links'>
         <Col lg='8'>
-          <Image className='mb-3' src='/img/fungus.jpeg' />
+          <Image
+            className='mb-5'
+            width={400}
+            height={300}
+            alt='171x180'
+            src='/img/history_fungi4.jpeg'
+          />
           <p>
             Of course, you cant have a conversation about mushrooms without
             touching on the intoxicating variety. Though we may associate
@@ -119,7 +143,13 @@ const HistoryContent = () => {
             picking, it is recovered and left to reach maturity. This long and
             labor-intensive process is the reason behind the hefty price tag.
           </p>
-          <Image className='mb-3' src='/img/fungus.jpeg' />
+          <Image
+            className='mb-5'
+            width={400}
+            height={300}
+            alt='171x180'
+            src='/img/history_fungi5.jpeg'
+          />
           <p>
             As Americas interest in mushrooms grew, entire cookbooks were
             devoted to them. One of the first English language mushroom
@@ -159,7 +189,13 @@ const HistoryContent = () => {
             mushroom bandwagon!
           </p>
           <br />
-          <Image className='mb-3' src='/img/fungus.jpeg' />
+          <Image
+            className='mb-5'
+            width={400}
+            height={300}
+            alt='171x180'
+            src='/img/history_fungi6.jpeg'
+          />
           <br />
           <br />
           <br />

@@ -7,7 +7,13 @@ const Content = () => {
       <Row className='justify-content-md-center pill-links'>
         <Col lg='8'>
           <h1 className='display-4'>What Is a Mushroom?</h1>
-          <Image className='mb-3' src='/img/fungus.jpeg' />
+          <Image
+            className='mb-5'
+            width={400}
+            height={300}
+            alt='171x180'
+            src='/img/info_fungi1.jpeg'
+          />
           <p>
             A mushroom or toadstool is the fleshy, spore-bearing fruiting body
             of a fungus, typically produced above ground, on soil, or on its

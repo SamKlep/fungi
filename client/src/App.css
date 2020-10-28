@@ -88,8 +88,6 @@ body {
   text-decoration: none;
 }
 
-
-
 @media (max-width: 800px) {
   .carousel {
     width: 600px;

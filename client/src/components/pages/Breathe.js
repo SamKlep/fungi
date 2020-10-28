@@ -47,7 +47,13 @@ const Breathe = () => {
       <Container>
         <Row className='justify-content-md-center bg-light p-5'>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' alt='fungus' />
+            <img
+              className='mb-5'
+              width={300}
+              height={200}
+              alt='171x180'
+              src='/img/fungus5.jpeg'
+            />
           </Col>
           <Col md='8' className='mb-3'>
             <p>
@@ -73,12 +79,24 @@ const Breathe = () => {
             </p>
           </Col>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' alt='fungus' />
+            <img
+              className='mb-5'
+              width={300}
+              height={200}
+              alt='171x180'
+              src='/img/immunity.jpeg'
+            />
           </Col>
         </Row>
         <Row className='justify-content-md-center bg-light p-5'>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' alt='fungus' />
+            <img
+              className='mb-5'
+              width={300}
+              height={200}
+              alt='171x180'
+              src='/img/breathe1.jpeg'
+            />
           </Col>
           <Col md='8' className='mb-3'>
             <p>
@@ -109,12 +127,24 @@ const Breathe = () => {
             </p>
           </Col>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' alt='fungus' />
+            <img
+              className='mb-5'
+              width={300}
+              height={200}
+              alt='171x180'
+              src='/img/breathe2.jpeg'
+            />
           </Col>
         </Row>
         <Row className='justify-content-md-center bg-light p-5'>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' alt='fungus' />
+            <img
+              className='mb-5'
+              width={300}
+              height={200}
+              alt='171x180'
+              src='/img/breathe3.jpeg'
+            />
           </Col>
           <Col md='8' className='mb-3'>
             <p>
@@ -148,12 +178,24 @@ const Breathe = () => {
             </p>
           </Col>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' alt='fungus' />
+            <img
+              className='mb-5'
+              width={300}
+              height={200}
+              alt='171x180'
+              src='/img/breathe4.jpeg'
+            />
           </Col>
         </Row>
         <Row className='justify-content-md-center bg-light p-5'>
           <Col xs lg='4' className='mb-3'>
-            <img src='/img/fungus.jpeg' alt='fungus' />
+            <img
+              className='mb-5'
+              width={300}
+              height={200}
+              alt='171x180'
+              src='/img/breathe5.jpeg'
+            />
           </Col>
           <Col md='8' className='mb-3'>
             <p>

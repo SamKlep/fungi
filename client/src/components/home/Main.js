@@ -9,11 +9,12 @@ const Main = () => {
           <Col>
             <Figure>
               <Figure.Image
-                width={171}
-                height={180}
+                width={300}
+                height={300}
                 alt='171x180'
-                src='/img/fungus.jpeg'
+                src='/img/main_fungi1.jpeg'
               />
+              <hr />
               <Figure.Caption>
                 Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla
                 vitae elit libero, a pharetra augue mollis interdum. Nulla vitae
@@ -24,11 +25,12 @@ const Main = () => {
           <Col>
             <Figure>
               <Figure.Image
-                width={171}
-                height={180}
+                width={300}
+                height={300}
                 alt='171x180'
-                src='/img/fungus.jpeg'
+                src='/img/main_fungi2.jpeg'
               />
+              <hr />
               <Figure.Caption>
                 Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla
                 vitae elit libero, a pharetra augue mollis interdum.Nulla vitae
@@ -39,11 +41,12 @@ const Main = () => {
           <Col>
             <Figure>
               <Figure.Image
-                width={171}
-                height={180}
+                width={300}
+                height={300}
                 alt='171x180'
-                src='/img/fungus.jpeg'
+                src='/img/main_fungi3.jpeg'
               />
+              <hr />
               <Figure.Caption>
                 Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla
                 vitae elit libero, a pharetra augue mollis interdum.Nulla vitae

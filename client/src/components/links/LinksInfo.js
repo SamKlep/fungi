@@ -8,7 +8,13 @@ const LinksInfo = () => {
       <Row className='justify-content-md-center pill-links'>
         <Col lg='8'>
           <h1 className='display-4'>Great Mushroom Links</h1>
-          <Image className='mb-3' src='/img/fungus.jpeg' />
+          <Image
+            className='mb-5'
+            width={300}
+            height={200}
+            alt='171x180'
+            src='img/main_fungi1.jpeg'
+          />
           <p>
             Here you'll find some great mushroom links and free information.
             Discover mushroom websites, articles, and other free resources along
