@@ -15,6 +15,9 @@ const Pills = () => {
           <Nav.Link href='/history'>History</Nav.Link>
         </Nav.Item>
         <Nav.Item>
+          <Nav.Link href='/links'>Health</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
           <Nav.Link href='/links'>Links</Nav.Link>
         </Nav.Item>
       </Nav>

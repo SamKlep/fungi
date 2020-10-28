@@ -15,6 +15,9 @@ const HistoryPills = () => {
           <Nav.Link href='/history'>History</Nav.Link>
         </Nav.Item>
         <Nav.Item>
+          <Nav.Link href='/breathe'>Health</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
           <Nav.Link href='/links'>Links</Nav.Link>
         </Nav.Item>
       </Nav>
