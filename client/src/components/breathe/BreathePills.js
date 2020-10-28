@@ -9,7 +9,7 @@ const BreathePills = () => {
         className='pill-links bg-light justify-content-center'
         defaultActiveKey='/breathe'>
         <Nav.Item>
-          <Nav.Link href='/learn'>Learn</Nav.Link>
+          <Nav.Link href='/info'>Info</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link href='/history'>History</Nav.Link>

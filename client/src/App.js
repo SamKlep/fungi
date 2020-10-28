@@ -5,7 +5,7 @@ import Header from './components/ui/Header'
 
 import Footer from './components/ui/Footer'
 import Home from './components/pages/Home'
-import Learn from './components/pages/Learn'
+import Learn from './components/pages/Info'
 import Breathe from './components/pages/Breathe'
 import NotFound from './components/pages/NotFound'
 import FungusScreen from './components/pages/FungusScreen'
@@ -24,7 +24,7 @@ function App() {
 
       <Switch>
         <Route path='/' component={Home} exact />
-        <Route path='/learn' component={Learn} />
+        <Route path='/info' component={Learn} />
         <Route path='/history' component={History} />
         <Route path='/links' component={Links} />
         <Route path='/edible' component={Edible} />

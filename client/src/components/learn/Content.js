@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image, Row, Col } from 'react-bootstrap'
 
-const Info = () => {
+const Content = () => {
   return (
     <div className='text-center container mt-5 mb-3'>
       <Row className='justify-content-md-center pill-links'>
@@ -34,4 +34,4 @@ const Info = () => {
   )
 }
 
-export default Info
+export default Content

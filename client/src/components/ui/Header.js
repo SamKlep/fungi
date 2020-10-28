@@ -10,8 +10,8 @@ const Header = ({ _id, fungus, q }) => {
           <Navbar.Brand className='text-info logo'>Fungi API</Navbar.Brand>
         </LinkContainer>
         <Nav className='ml-auto'>
-          <LinkContainer to='/learn'>
-            <Nav.Link>Learn</Nav.Link>
+          <LinkContainer to='/info'>
+            <Nav.Link>Info</Nav.Link>
           </LinkContainer>
           <LinkContainer to='/explore'>
             <Nav.Link>Explore</Nav.Link>
