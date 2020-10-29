@@ -34,6 +34,8 @@ const FungusContainer = () => {
     setFungus(inputValue)
   }
 
+  const fungus = this.state.fungus ? this.state.fungus : []
+
   return (
     <div>
       <div className='container mt-3'>
