@@ -13,9 +13,9 @@ const Header = () => {
           <LinkContainer to='/info'>
             <Nav.Link>Info</Nav.Link>
           </LinkContainer>
-          {/* <LinkContainer to='/explore'>
+          <LinkContainer to='/explore'>
             <Nav.Link>Explore</Nav.Link>
-          </LinkContainer> */}
+          </LinkContainer>
           <LinkContainer to='/identify'>
             <Nav.Link>Identify</Nav.Link>
           </LinkContainer>
