@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const slugify = require('slugify')
 
 const FungusSchema = new mongoose.Schema({
   name: {
@@ -8,7 +7,7 @@ const FungusSchema = new mongoose.Schema({
   subname: {
     type: String,
   },
-  slug: String,
+
   family: {
     type: String,
   },
@@ -18,9 +17,7 @@ const FungusSchema = new mongoose.Schema({
   imgUrl: {
     type: String,
   },
-  identification: {
-    type: String,
-  },
+
   similar: {
     type: String,
   },
