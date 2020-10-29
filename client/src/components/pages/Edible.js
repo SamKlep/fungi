@@ -9,8 +9,6 @@ import Pages from '../ui/Pagination'
 const Breathe = () => {
   const [fungi, setFungus] = useState([])
   const [isLoading, setIsLoading] = useState([true])
-  const [currentPage, setCurrentPage] = useState(1)
-  const [postsPerPage] = useState(12)
 
   useEffect(() => {
     const fetchItems = async () => {
@@ -21,14 +19,6 @@ const Breathe = () => {
     }
     fetchItems()
   }, [])
-
-  // Get current post
-  const indexOfLastPost = currentPage * postsPerPage
-  const indexOfFirstPost = indexOfLastPost - postsPerPage
-  const currentPosts = [fungi].slice(indexOfFirstPost, indexOfLastPost)
-
-  // Change page
-  const paginate = (pageNumber) => setCurrentPage(pageNumber)
 
   return (
     <Container>
@@ -43,11 +33,7 @@ const Breathe = () => {
         <EdibleGrid isLoading={isLoading} fungi={fungi} />
       </div>
       <br />
-      <Pages
-        postsPerPage={postsPerPage}
-        totalPosts={[fungi].length}
-        paginate={paginate}
-      />
+      <Pages />
       <br />
       <br />
     </Container>
