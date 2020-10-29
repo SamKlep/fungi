@@ -1,8 +1,8 @@
 import React from 'react'
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
-const Header = ({ _id, fungus, q }) => {
+const Header = () => {
   return (
     <div>
       <Navbar bg='dark' variant='dark'>
@@ -20,10 +20,6 @@ const Header = ({ _id, fungus, q }) => {
             <Nav.Link>Identify</Nav.Link>
           </LinkContainer>
         </Nav>
-        {/* <Form inline>
-          <FormControl type='text' placeholder='Search' className='mr-sm-2' />
-          <Button variant='outline-info'>Search</Button>
-        </Form> */}
       </Navbar>
     </div>
   )
