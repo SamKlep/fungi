@@ -11,7 +11,6 @@ const Learn = () => {
       <Pills />
       <Info />
       <Define />
-      <AllFungi />
     </Container>
   )
 }
