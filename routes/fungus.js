@@ -9,6 +9,7 @@ const {
   deleteFungus,
   fungusPhotoUpload,
   searchFungi,
+  sendMail,
 } = require('../controllers/fungus')
 
 const router = express.Router()
@@ -19,6 +20,7 @@ router.route('/:id/photo').put(fungusPhotoUpload)
 
 router.route('/random').get(getRandom)
 router.route('/search').post(searchFungi)
+router.route('/send').post(sendMail)
 
 router.route('/:id').get(getFungus).put(updateFungus).delete(deleteFungus)
 
