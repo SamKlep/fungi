@@ -14,7 +14,7 @@ const FungusContainer = () => {
   useEffect(() => {
     setLoading(true)
     axios
-      .get(`/api/v1/fungus?name=${fungus}`)
+      .get(`/api/v1/fungus`)
       .then((response) => {
         setData(response.data)
         console.log(response.data)
