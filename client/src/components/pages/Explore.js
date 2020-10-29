@@ -20,13 +20,13 @@ const Explore = () => {
     }
 
     fetchItems()
-  }, [query])
+  }, [])
 
   return (
     <div className='container mt-5 mb-5'>
       <h1>Explore</h1>
       <p>Enter the name of a fungus in question</p>
-      <Search getQuery={(q) => setQuery(q)} />
+
       <Filter />
       <FungiGrid isLoading={isLoading} fungi={fungi} />
     </div>
