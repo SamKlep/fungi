@@ -16,15 +16,20 @@ class Submit extends React.Component {
     return (
       <div className='container bg-info text-dark p-5 mb-3'>
         <Form
-          id='contact-form'
+          id='contactform'
           onSubmit={this.handleSubmit.bind(this)}
           method='POST'>
-          <Form.Group controlId='exampleForm.ControlInput1'>
+          <Form.Group>
             <Form.Label htmlFor='name'>Name</Form.Label>
-            <Form.Control type='text' placeholder='email@example.com' />
+            <Form.Control
+              type='text'
+              placeholder='email@example.com'
+              value={this.state.name}
+              onChange={this.onNameChange.bind(this)}
+            />
           </Form.Group>
           <Form.Group controlId='exampleForm.ControlInput1'>
-            <Form.Label htmlFor='exampleInputEmail1'>Email</Form.Label>
+            <Form.Label>Email</Form.Label>
             <Form.Control
               type='email'
               placeholder='email@example.com'
@@ -33,7 +38,7 @@ class Submit extends React.Component {
             />
           </Form.Group>
 
-          <Form.Group controlId='exampleForm.ControlTextarea1'>
+          <Form.Group>
             <Form.Label htmlFor='message'>Message</Form.Label>
             <Form.Control
               as='textarea'
@@ -71,7 +76,11 @@ class Submit extends React.Component {
     }).then((response) => {
       if (response.data.status === 'success') {
         alert('Message Sent.')
-        this.resetForm()
+        this.setState({
+          name: '',
+          email: '',
+          message: '',
+        })
       } else if (response.data.status === 'fail') {
         alert('Message failed to send.')
       }
