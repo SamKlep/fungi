@@ -37,7 +37,8 @@ const LinksInfo = () => {
             <li>
               <a
                 href='http://mushroom-collecting.com/index.html'
-                target='_blank'>
+                target='_blank'
+                rel='noopener noreferrer'>
                 Mushroom Collecting
               </a>{' '}
               - A very informative site about the mushrooms of New England and
@@ -46,7 +47,10 @@ const LinksInfo = () => {
             </li>
 
             <li>
-              <a href='https://www.wildmanstevebrill.com/' target='_blank'>
+              <a
+                href='https://www.wildmanstevebrill.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
                 Wild Man Steve Brill
               </a>{' '}
               - Learn about edible and medicinal wild vegetables, herbs, greens,

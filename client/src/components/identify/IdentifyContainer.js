@@ -5,7 +5,7 @@ import IdentifyListItem from './IdentifyListItem'
 const IdentifyContainer = () => {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState([])
-  const [q, setQ] = useState('')
+  const [q] = useState('')
   const [inputValue, setValue] = useState('')
   const [fungus, setFungus] = useState(inputValue)
 

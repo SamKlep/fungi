@@ -3,7 +3,6 @@ const ErrorResponse = require('../utils/errorResponse')
 const asyncHandler = require('../middleware/async')
 const Fungus = require('../models/Fungus.js')
 var nodemailer = require('nodemailer')
-var cors = require('cors')
 const creds = require('../config/config')
 
 // @desc        Get all fungi
@@ -45,7 +44,7 @@ exports.getFungi = asyncHandler(async (req, res, next) => {
   }
 
   // Pagination
-  const pagination = req.query.pagination ? parseInt(req.query.pagination) : 12
+  const pagination = req.query.pagination ? parseInt(req.query.pagination) : 100
   const page = parseInt(req.query.page, 10) || 1
   const limit = parseInt(req.query.limit, 10 || 25)
   const skip = (page - 1) * pagination
