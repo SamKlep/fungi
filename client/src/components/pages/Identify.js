@@ -1,8 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import IdentifyPills from '../identify/IdentifyPills'
+
 import IdentifyContainer from '../identify/IdentifyContainer'
-import Pages from '../learn/Pages'
 
 const Identify = () => {
   return (
@@ -34,7 +33,7 @@ const Identify = () => {
         <IdentifyContainer />
       </Container>
       <br />
-      <Pages />
+
       <br />
       <br />
     </Container>

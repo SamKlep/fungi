@@ -34,26 +34,13 @@ const FungusContainer = () => {
     setFungus(inputValue)
   }
 
-  const items = [
-    {
-      id: 1,
-      value: 'Medicinal',
-    },
-    {
-      id: 2,
-      value: 'Edible',
-    },
-    {
-      id: 3,
-      value: 'Poisonous',
-    },
-  ]
-
   return (
     <div>
       <div className='container mt-3'>
         <h1>Explore</h1>
-
+        <p className='lead'>
+          Enter the name of a fungus in question or filter by type
+        </p>
         <form onSubmit={handleSubmit}>
           <input
             className='search-explore'

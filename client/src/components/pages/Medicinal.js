@@ -3,7 +3,7 @@ import axios from 'axios'
 import '../../App.css'
 
 import { Container, Button } from 'react-bootstrap'
-import Pages from '../learn/Pages'
+
 import MedicinalGrid from '../medicinal/MedicinalGrid'
 import MedicinalContent from '../medicinal/MedicinalContent'
 
@@ -36,7 +36,7 @@ const Breathe = () => {
         <MedicinalGrid isLoading={isLoading} fungi={fungi} />
       </div>
       <br />
-      <Pages />
+
       <br />
       <br />
     </Container>

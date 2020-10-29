@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import { ListGroup, Image } from 'react-bootstrap'
 
 const FungusScreen = ({ match }) => {
   const [fungus, setFungus] = useState({})
@@ -18,34 +19,54 @@ const FungusScreen = ({ match }) => {
   }, [match])
 
   return (
-    <div className='container'>
-      <Link className='btn btn-light my-3' to='/learn'>
+    <div className='container mb-5'>
+      <Link className='btn btn-light my-5' to='/explore'>
         Go Back
       </Link>
-      <div className='cards2'>
-        <div className='card2'>
-          <img alt='fungus' src={fungus.imgUrl} />
+      <div className='container m-auto mb-5'>
+        <div className='card2 justify-content-md-center '>
+          <Image
+            style={{ overflow: 'hidden' }}
+            alt='fungi'
+            src={fungus.imgUrl}
+          />
 
           <div className='card-body'>
             <h1>{fungus.name}</h1>
 
-            <ul>
-              <li>
-                <strong>Sub-name:</strong> {fungus.subName}
-              </li>
-              <li>
-                <strong>Family:</strong> {fungus.family}
-              </li>
-              <li>
-                <strong>Location:</strong> {fungus.location}
-              </li>
-              <li>
-                <strong>Dimensions:</strong> {fungus.dimensions}
-              </li>
-              <li>
-                <strong>Description:</strong> {fungus.description}
-              </li>
-            </ul>
+            <ListGroup>
+              <ListGroup.Item className='bg-light'>
+                <strong>Family: </strong>
+                {fungus.family}
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <strong> Sub-Name: </strong>
+                {fungus.subname}
+              </ListGroup.Item>
+              <ListGroup.Item className='bg-light'>
+                <strong> Location: </strong>
+                {fungus.location}
+              </ListGroup.Item>
+              <ListGroup.Item>
+                {fungus.edible === true ? 'Edible' : 'Inedible'}
+              </ListGroup.Item>
+              <ListGroup.Item className='bg-light'>
+                <strong> Dimensions: </strong>
+                {fungus.dimensions}
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <strong> Description: </strong>
+                {fungus.description}
+              </ListGroup.Item>
+              <ListGroup.Item className='bg-light'>
+                <strong> Similar: </strong>
+                {fungus.similar}
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <strong> Folklore: </strong>
+                {fungus.folklore}
+              </ListGroup.Item>
+            </ListGroup>
           </div>
         </div>
       </div>

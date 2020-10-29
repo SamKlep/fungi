@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const FungusListItem = ({ fungus }) => {
   return (
@@ -8,8 +9,9 @@ const FungusListItem = ({ fungus }) => {
           <img alt='fungi' src={fungus.imgUrl} />
         </div>
         <div className='card-back'>
-          <h1>{fungus.name}</h1>
-
+          <Link to={`/fungus/${fungus._id}`}>
+            <h1>{fungus.name}</h1>
+          </Link>
           <ul>
             <li>
               <strong>Family: </strong>

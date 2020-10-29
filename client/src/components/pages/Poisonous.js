@@ -3,7 +3,7 @@ import axios from 'axios'
 import '../../App.css'
 import EdibleGrid from '../../components/edible/EdibleGrid'
 import { Container, Button } from 'react-bootstrap'
-import Pages from '../learn/Pages'
+
 import PoisonousContent from '../poisonous/PoisonousContent'
 
 const Breathe = () => {
@@ -35,7 +35,7 @@ const Breathe = () => {
         <EdibleGrid isLoading={isLoading} fungi={fungi} />
       </div>
       <br />
-      <Pages />
+      =
       <br />
       <br />
     </Container>
