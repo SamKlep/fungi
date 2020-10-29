@@ -57,7 +57,7 @@ const FungusContainer = () => {
         <br />
         <br />
         {q}
-        {data.data.map((fungus, _id) => (
+        {fungus.data.map((fungus, _id) => (
           <FungusListItem key={_id} fungus={fungus} q={q} />
         ))}
       </div>
