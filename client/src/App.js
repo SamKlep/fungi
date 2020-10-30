@@ -16,6 +16,7 @@ import Medicinal from './components/pages/Medicinal'
 import Identify from './components/pages/Identify'
 import FungusContainer from './components/fungus/FungusContainer'
 import Poisonous from './components/pages/Poisonous'
+import AllFungi from './components/pages/AllFungi'
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
         <Route path='/medicinal' component={Medicinal} />
         <Route path='/poisonous' component={Poisonous} />
         <Route path='/identify' component={Identify} />
-        <Route path='/explore' component={FungusContainer} />
+        <Route path='/explore' component={AllFungi} />
         <Route path='/breathe' component={Breathe} />
         <Route path='/fungus/:id' component={FungusScreen} />
         <Route path='*' component={NotFound} />
