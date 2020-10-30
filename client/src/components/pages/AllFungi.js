@@ -9,7 +9,7 @@ const AllFungi = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`/api/v1/fungus`)
+      const result = await axios.get(`/api/v1/fungus`)
 
       console.log(result.data)
       setFungus(result.data)

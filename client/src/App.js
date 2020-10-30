@@ -14,7 +14,6 @@ import History from './components/pages/History'
 import Edible from './components/pages/Edible'
 import Medicinal from './components/pages/Medicinal'
 import Identify from './components/pages/Identify'
-import FungusContainer from './components/fungus/FungusContainer'
 import Poisonous from './components/pages/Poisonous'
 import AllFungi from './components/pages/AllFungi'
 
