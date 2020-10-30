@@ -3,6 +3,7 @@ import { Image, ListGroup } from 'react-bootstrap'
 import './fungus.css'
 
 const FungusListItem = ({ fungus }) => {
+  console.log(fungus)
   return (
     <div className='container m-auto mb-5'>
       <div className='card2 justify-content-md-center '>
