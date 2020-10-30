@@ -40,6 +40,64 @@ body {
   display: flex;
   padding-top: 50px;
 }
+.cards3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card3 {
+  cursor: pointer;
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.card3 h1 {
+  font-size: 25px;
+  border-bottom: 1px #fff solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.card3 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card3:hover .card-inner3 {
+  transform: rotateY(180deg);
+}
+
+.card-front3,
+.card-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back3 {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  transform: rotateY(180deg);
+}
+
+.card3 li {
+  list-style: none;
+  padding-bottom: 10px;
+}
 
 .card2 {
   background-color: transparent;

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import FungusListItem from './FungusListItem'
-import './fungus.css'
 import Filter from '../search/Filter'
 
 const FungusContainer = () => {

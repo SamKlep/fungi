@@ -1,46 +1,35 @@
 import React from 'react'
-import { Image, ListGroup } from 'react-bootstrap'
-import './fungus.css'
+import '../fungi/Explore.css'
+import { Link } from 'react-router-dom'
 
 const FungusListItem = ({ fungus }) => {
-  console.log(fungus)
   return (
-    <div className='container m-auto mb-5'>
-      <div className='card2 justify-content-md-center '>
-        <Image style={{ overflow: 'hidden' }} alt='fungi' src={fungus.imgUrl} />
-
-        <div className='card-body'>
-          <h1>{fungus.name}</h1>
-
-          <ListGroup>
-            <ListGroup.Item className='bg-light'>
+    <div className='card'>
+      <div className='card-inner'>
+        <div className='card-front'>
+          <Link to={`/fungus${fungus._id}`}>
+            <img alt='fungus' src={fungus.imgUrl} />
+          </Link>
+        </div>
+        <div className='card-back'>
+          <Link to={`/fungus/${fungus._id}`}>
+            <h1>{fungus.name}</h1>
+          </Link>
+          <ul>
+            <li>
               <strong>Family: </strong>
               {fungus.family}
-            </ListGroup.Item>
-            <ListGroup.Item>
+            </li>
+            <li>
               <strong> Sub-Name: </strong>
               {fungus.subname}
-            </ListGroup.Item>
-            <ListGroup.Item className='bg-light'>
+            </li>
+            <li>
               <strong> Location: </strong>
               {fungus.location}
-            </ListGroup.Item>
-            <ListGroup.Item>
-              {fungus.edible === true ? 'Edible' : 'Inedible'}
-            </ListGroup.Item>
-            <ListGroup.Item className='bg-light'>
-              <strong> Dimensions: </strong>
-              {fungus.dimensions}
-            </ListGroup.Item>
-            <ListGroup.Item>
-              <strong> Description: </strong>
-              {fungus.description}
-            </ListGroup.Item>
-            <ListGroup.Item className='bg-light'>
-              <strong> Similar: </strong>
-              {fungus.similar}
-            </ListGroup.Item>
-          </ListGroup>
+            </li>
+            <li>{fungus.edible === true ? 'Edible' : 'Inedible'}</li>
+          </ul>
         </div>
       </div>
     </div>
