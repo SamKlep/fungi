@@ -73,6 +73,9 @@ app.use('/api/v1/fungus', fungus)
 // Error handler
 app.use(errorHandler)
 
+// Set static folder
+app.use(express.static(path.join(__dirname, 'public')))
+
 const PORT = process.env.PORT || 5000
 
 const server = app.listen(
