@@ -14,7 +14,7 @@ const FungusContainer = () => {
   useEffect(() => {
     setLoading(true)
     axios
-      .get(`/api/v1/fungus`)
+      .get(`/api/v1/fungus?name=${fungus}`)
       .then((response) => {
         setData(response.data)
         console.log(response.data)
@@ -55,8 +55,8 @@ const FungusContainer = () => {
         <br />
         <br />
         {q}
-        {fungus.data.map((fungus, _id) => (
-          <FungusListItem key={_id} fungus={data} q={q} />
+        {data.data.map((fungus, _id) => (
+          <FungusListItem key={_id} fungus={fungus} q={q} />
         ))}
       </div>
     </div>
