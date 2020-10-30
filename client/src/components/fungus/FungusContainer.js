@@ -23,7 +23,7 @@ const FungusContainer = () => {
       .catch((err) => {
         console.log(err)
       })
-  }, [])
+  }, [fungus])
 
   if (loading) {
     return <p>Loading fungi...</p>
