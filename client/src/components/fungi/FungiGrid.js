@@ -7,10 +7,9 @@ const FungiGrid = ({ fungi, isLoading }) => {
     <h1>Loading...</h1>
   ) : (
     <section className='cards'>
-      {fungi.data &&
-        fungi.data.map((fungus, _id) => (
-          <FungusItem key={_id} fungus={fungus}></FungusItem>
-        ))}
+      {fungi.data.map((fungus, _id) => (
+        <FungusItem key={_id} fungus={fungus}></FungusItem>
+      ))}
     </section>
   )
 }

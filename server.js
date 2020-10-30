@@ -27,11 +27,12 @@ const app = express()
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
-  // Set static folder
-  app.use(express.static('client/build'))
-  app.get('*', (req, res) =>
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
-  )
+  app.use(express.static('client/build')) // serve the static react app
+  app.get(/^\/(?!api).*/, (req, res) => {
+    // don't serve api routes to react app
+    res.sendFile(path.join(__dirname, './client/build/index.html'))
+  })
+  console.log('Serving React App...')
 }
 
 // Body parser
