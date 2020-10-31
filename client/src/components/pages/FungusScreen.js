@@ -21,11 +21,11 @@ const FungusScreen = ({ match }) => {
   return (
     <>
       <div className='container mb-5'>
-        <Link className='btn btn-light my-5 mx-auto' to='/explore'>
+        <Link className='btn btn-info my-5 mx-auto' to='/explore'>
           Go Back
         </Link>
 
-        <div className='container  m-auto mb-5'>
+        <div className='container m-auto mb-5'>
           <Card className='mx-auto mb-5' style={{ width: '36rem' }}>
             <Card.Img variant='top' src={fungus.imgUrl} />
             <Card.Body>
