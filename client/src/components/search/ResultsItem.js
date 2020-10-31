@@ -7,9 +7,7 @@ const ResultsItem = ({ fungus }) => {
     <div className='card'>
       <div className='card-inner'>
         <div className='card-front'>
-          <Link to={`/fungus${fungus._id}`}>
-            <img alt='fungus' src={fungus.imgUrl} />
-          </Link>
+          <img alt='fungus' src={fungus.imgUrl} />
         </div>
         <div className='card-back'>
           <Link to={`/fungus/${fungus._id}`}>
@@ -28,7 +26,7 @@ const ResultsItem = ({ fungus }) => {
               <strong> Location: </strong>
               {fungus.location}
             </li>
-            <li>{fungus.medicinal === true ? 'Medicinal' : ''}</li>
+            <li>{fungus.edible === true ? 'Edible' : 'Inedible'}</li>
           </ul>
         </div>
       </div>

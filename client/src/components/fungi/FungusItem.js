@@ -7,7 +7,7 @@ const FungusItem = ({ fungus }) => {
     <div className='card'>
       <div className='card-inner'>
         <div className='card-front'>
-          <Link to={`/fungus/${fungus._id}`}>
+          <Link to={`/fungus${fungus._id}`}>
             <img alt='fungus' src={fungus.imgUrl} />
           </Link>
         </div>

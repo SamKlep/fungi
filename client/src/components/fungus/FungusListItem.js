@@ -1,15 +1,14 @@
 import React from 'react'
-import '../fungi/Explore.css'
+
 import { Link } from 'react-router-dom'
+import { CardDeck, Card, Button } from 'react-bootstrap'
 
 const FungusListItem = ({ fungus }) => {
   return (
     <div className='card'>
       <div className='card-inner'>
         <div className='card-front'>
-          <Link to={`/fungus${fungus._id}`}>
-            <img alt='fungus' src={fungus.imgUrl} />
-          </Link>
+          <img alt='fungus' src={fungus.imgUrl} />
         </div>
         <div className='card-back'>
           <Link to={`/fungus/${fungus._id}`}>

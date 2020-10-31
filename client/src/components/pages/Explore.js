@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import '../../App.css'
 import FungiGrid from '../fungi/FungiGrid'
-import Search from '../fungi/Search'
 import Filter from '../search/Filter'
 
 const Explore = () => {

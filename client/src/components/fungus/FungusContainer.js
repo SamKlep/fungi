@@ -3,6 +3,8 @@ import axios from 'axios'
 import FungusListItem from './FungusListItem'
 import Filter from '../search/Filter'
 
+import '../../App.css'
+
 const FungusContainer = () => {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState([])
@@ -34,30 +36,29 @@ const FungusContainer = () => {
   }
 
   return (
-    <div>
-      <div className='container mt-3'>
-        <h1>Explore</h1>
-        <p className='lead'>
-          Enter the name of a fungus in question or filter by type
-        </p>
-        <form onSubmit={handleSubmit}>
-          <input
-            className='search-explore'
-            type='text'
-            placeholder='Search fungi'
-            value={inputValue}
-            onChange={(e) => setValue(e.target.value)}
-          />
-        </form>
-        <br />
-        <Filter />
-        <br />
-        <br />
-        {q}
-        {data.data.map((fungus, _id) => (
-          <FungusListItem key={_id} fungus={fungus} />
-        ))}
-      </div>
+    <div className='container mt-3'>
+      <h1>Explore</h1>
+      <p className='lead'>
+        Enter the name of a fungus in question or filter by type
+      </p>
+      <form onSubmit={handleSubmit}>
+        <input
+          className='search-explore'
+          type='text'
+          placeholder='Search fungi'
+          value={inputValue}
+          onChange={(e) => setValue(e.target.value)}
+        />
+      </form>
+      <br />
+      <Filter />
+      <br />
+      <br />
+
+      {data.data.map((fungus, _id) => (
+        <FungusListItem key={_id} fungus={fungus} />
+      ))}
+      {q}
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Explore.css'
+import '../../App.css'
 import FungusItem from './FungusItem'
 
 const FungiGrid = ({ fungi, isLoading }) => {

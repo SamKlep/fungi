@@ -7,7 +7,7 @@ const Filter = () => {
       <Dropdown>
         <Dropdown.Toggle
           variant='info'
-          className='text-dark'
+          className='text-dark w-100'
           id='dropdown-basic'>
           Filter by
         </Dropdown.Toggle>

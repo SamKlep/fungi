@@ -1,5 +1,5 @@
 import React from 'react'
-import '../fungi/Explore.css'
+import '../../App.css'
 import IdentifyItem from './IdentifyItem'
 
 const IdentifyGrid = ({ fungi, isLoading }) => {

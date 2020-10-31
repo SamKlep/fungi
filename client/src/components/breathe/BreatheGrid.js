@@ -1,5 +1,5 @@
 import React from 'react'
-import '../fungi/Explore.css'
+import '../../App.css'
 import BreatheItem from './BreatheItem'
 
 const BreatheGrid = ({ fungi, isLoading }) => {
