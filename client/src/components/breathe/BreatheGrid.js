@@ -2,6 +2,8 @@ import React from 'react'
 import '../../App.css'
 import BreatheItem from './BreatheItem'
 
+// Github changes
+
 const BreatheGrid = ({ fungi, isLoading }) => {
   return isLoading ? (
     <h1>Loading...</h1>
