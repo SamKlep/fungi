@@ -54,10 +54,11 @@ const FungusContainer = () => {
       <Filter />
       <br />
       <br />
-
-      {data.data.map((fungus, _id) => (
-        <FungusListItem key={_id} fungus={fungus} />
-      ))}
+      <section className='cards pill-links'>
+        {data.data.map((fungus, _id) => (
+          <FungusListItem key={_id} fungus={fungus} />
+        ))}
+      </section>
       {q}
     </div>
   )

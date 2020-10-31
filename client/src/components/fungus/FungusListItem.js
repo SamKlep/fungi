@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { Link } from 'react-router-dom'
-import { CardDeck, Card, Button } from 'react-bootstrap'
 
 const FungusListItem = ({ fungus }) => {
   return (

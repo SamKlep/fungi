@@ -1,8 +1,6 @@
 import React from 'react'
-import './App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './components/ui/Header'
-
 import Footer from './components/ui/Footer'
 import Home from './components/pages/Home'
 import Learn from './components/pages/Info'
@@ -16,6 +14,8 @@ import Medicinal from './components/pages/Medicinal'
 import Identify from './components/pages/Identify'
 import Poisonous from './components/pages/Poisonous'
 import FungusContainer from './components/fungus/FungusContainer'
+
+import './App.css'
 
 function App() {
   return (
