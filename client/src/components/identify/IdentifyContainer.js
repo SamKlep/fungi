@@ -34,23 +34,28 @@ const IdentifyContainer = () => {
   }
 
   return (
-    <div className='container mt-3'>
-      <form onSubmit={handleSubmit}>
-        <input
-          className='search-explore'
-          type='text'
-          placeholder='Search fungi'
-          value={inputValue}
-          onChange={(e) => setValue(e.target.value)}
-        />
-      </form>
-      <br />
-      <br />
-      {q}
-      {data.data.map((fungus, _id) => (
-        <IdentifyListItem key={_id} fungus={fungus} q={q} />
-      ))}
-    </div>
+    <>
+      <div className='container mt-3'>
+        <form onSubmit={handleSubmit}>
+          <input
+            className='search-explore'
+            type='text'
+            placeholder='Search fungi'
+            value={inputValue}
+            onChange={(e) => setValue(e.target.value)}
+          />
+        </form>
+        <br />
+        <br />
+
+        {q}
+        <div className='cards'>
+          {data.data.map((fungus, _id) => (
+            <IdentifyListItem key={_id} fungus={fungus} q={q} />
+          ))}
+        </div>
+      </div>
+    </>
   )
 }
 

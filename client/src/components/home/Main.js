@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Figure } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Main = () => {
   return (
@@ -22,6 +23,9 @@ const Main = () => {
                 body of a fungus, typically produced above ground, on soil, or
                 on its food source...
               </Figure.Caption>
+              <Link className='btn btn-dark btn-block my-5 mx-auto' to='/info'>
+                More
+              </Link>
             </Figure>
           </Col>
           <Col>
@@ -41,6 +45,11 @@ const Main = () => {
                 us to find safe, tasty mushrooms at the grocery store, but it
                 wasn't always this way...
               </Figure.Caption>
+              <Link
+                className='btn btn-dark btn-block my-5 mx-auto'
+                to='/history'>
+                More
+              </Link>
             </Figure>
           </Col>
           <Col>
@@ -59,6 +68,11 @@ const Main = () => {
                 medicinally for centuries, dating all the way back to ancient
                 Egypt. Legend has it...
               </Figure.Caption>
+              <Link
+                className='btn btn-dark btn-block my-5 mx-auto'
+                to='/breathe'>
+                More
+              </Link>
             </Figure>
           </Col>
         </Row>
